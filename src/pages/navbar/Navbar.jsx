@@ -11,8 +11,6 @@ const Navbar = () => {
                     <li>home</li>
                     <li>mccafe</li>
                     <li>artikel</li>
-                    <li>suckerpunch</li>
-                    <li>Über uns</li>
                 </ul>
             </div>
         </nav>
