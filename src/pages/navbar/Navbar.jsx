@@ -1,16 +1,19 @@
 import React from 'react';
+import Logo from "../../assets/Logo.png";
 
 const Navbar = () => {
     return (
         <nav className="navbar">
-            <div>
+            <div className="logo">
 
             </div>
-            <div>
+            <div className="links">
                 <ul>
-                    <li>home</li>
-                    <li>mccafe</li>
-                    <li>artikel</li>
+                    <li>Home</li>
+                    <li>Advert</li>
+                    <li>Media</li>
+                    <li>Burger</li>
+                    <li>About us</li>
                 </ul>
             </div>
         </nav>
@@ -18,3 +21,4 @@ const Navbar = () => {
 }
 
 export default Navbar;
+// <img src={Logo} alt="Logo" />
