@@ -5,15 +5,17 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="logo">
-
+                <img src={Logo} alt="Logo" />
             </div>
             <div className="links">
                 <ul>
-                    <li>Home</li>
-                    <li>Advert</li>
-                    <li>Media</li>
-                    <li>Burger</li>
-                    <li>About us</li>
+                    <li>Menu</li>
+                    <li>McCafé</li>
+                    <li>Was gibts Neues?</li>
+                    <li>myOrder</li>
+                    <li>myMcDonalds's</li>
+                    <li>Familie</li>
+                    <li>McDelivery</li>
                 </ul>
             </div>
         </nav>
@@ -21,4 +23,3 @@ const Navbar = () => {
 }
 
 export default Navbar;
-// <img src={Logo} alt="Logo" />
