@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: column;
     .carusel{
-        background-color: rgba(9, 139, 226, 0.034);
+        background-color: rgba(9, 139, 226, 0.726);
         width: 100%;
         height: 60vh;
         border-radius: 7px;
@@ -20,6 +20,7 @@
         .box{
             display: flex;
             flex-direction: column;
+            justify-content: space-between;
             border:0.5px solid rgba(128, 128, 128, 0.226);
             width: 56vh;
             border-radius: 7px;
@@ -27,6 +28,25 @@
             img{
                 border-radius: 7px 7px 0px 0px;
                 max-height: 100%;
+            }
+            .textbuttonheader{
+                margin-top: 1vh;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: column;
+                .boxheader{
+                    font-size: x-large;
+                    font-weight: bolder;
+                    margin-bottom: 0.5vh;
+                }
+                p{
+                    max-width: 80%;
+                    text-align: center;
+                }
+                button{
+                    margin-top: 2vh;
+                }
             }
         }
     }
