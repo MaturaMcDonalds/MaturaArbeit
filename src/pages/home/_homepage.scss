@@ -22,7 +22,7 @@
             flex-direction: column;
             justify-content: space-between;
             border:0.5px solid rgba(128, 128, 128, 0.226);
-            width: 56vh;
+            width: 32%;
             border-radius: 7px;
             margin-top: 4vh;
             img{
@@ -56,11 +56,6 @@
     .homepage{
         padding-left: 30vh;
         padding-right: 30vh;
-        .infoBoxes{
-            .box{
-                width: 45vh;
-            }
-        }
     }
     
 }
