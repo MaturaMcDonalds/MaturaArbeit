@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 .navbar {
   width: 100%;
   height: 17vh;
@@ -81,12 +80,58 @@
   }
 }
 
+.homepage {
+  background-color: rgba(135, 207, 235, 0.123);
+  width: 100%;
+  padding-top: 5vh;
+  padding-left: 7vh;
+  padding-right: 7vh;
+  padding-bottom: 7vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.homepage .carusel {
+  background-color: rgba(9, 139, 226, 0.452);
+  width: 100%;
+  height: 60vh;
+  border-radius: 7px;
+}
+
+.homepage .infoBoxes {
+  margin-top: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.homepage .infoBoxes .box {
+  background-color: rgba(110, 41, 41, 0.507);
+  height: 40vh;
+  width: 56vh;
+  border-radius: 7px;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'calibri', sans-serif;
 }
 
 *:focus {

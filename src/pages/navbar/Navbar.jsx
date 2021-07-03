@@ -9,13 +9,12 @@ const Navbar = () => {
             </div>
             <div className="links">
                 <ul>
-                    <li>Menu</li>
-                    <li>McCafé</li>
-                    <li>Was gibts Neues?</li>
-                    <li>myOrder</li>
-                    <li>myMcDonalds's</li>
-                    <li>Familie</li>
-                    <li>McDelivery</li>
+                    <li>Unsere Maturaarbeit</li>
+                    <li>McDonalds Geschichte</li>
+                    <li>McMarketing</li>
+                    <li>Zukunft</li>
+                    <li>Text</li>
+                    <li>Text</li>
                 </ul>
             </div>
         </nav>

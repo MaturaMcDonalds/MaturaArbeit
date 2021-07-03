@@ -1,5 +1,5 @@
 @import "./navbar/navbar";
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import "./home/homepage";
 
 *{
     box-sizing: border-box;
@@ -8,5 +8,5 @@
     &:focus {
         outline: none;
     }
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'calibri', sans-serif;
 }
