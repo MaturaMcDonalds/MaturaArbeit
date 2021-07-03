@@ -24,7 +24,7 @@
 }
 
 .navbar .logo img {
-  height: 17vh;
+  max-height: 100%;
 }
 
 .navbar .links {
