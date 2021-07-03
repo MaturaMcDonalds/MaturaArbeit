@@ -73,3 +73,16 @@
         }   
     }  
 }
+@media only screen and (max-width: 461px) {
+    .homepage{
+        .infoBoxes{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .box{
+                width: 90%;    
+            }
+        }   
+    }  
+}
