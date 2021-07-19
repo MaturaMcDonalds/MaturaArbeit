@@ -289,9 +289,13 @@
 }
 
 footer {
-  width: 100%;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
   height: 17vh;
   background-color: white;
+  border-bottom: 1.5px solid rgba(128, 128, 128, 0.527);
+  margin-bottom: 5vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
