@@ -1,5 +1,6 @@
 import React from 'react';
 import Logo from "../../assets/Logo.png";
+import { AiOutlineMenu } from "react-icons/ai";
 
 const Navbar = () => {
     return (
@@ -16,6 +17,9 @@ const Navbar = () => {
                     <li>Text</li>
                     <li>Text</li>
                 </ul>
+            </div>
+            <div className="sidebar">
+                <AiOutlineMenu size={40} />
             </div>
         </nav>
     );
