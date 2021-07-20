@@ -153,7 +153,6 @@ footer .linksbottom ul {
 
 @media only screen and (max-width: 980px) {
   .navbar {
-    padding-left: 10%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -164,7 +163,9 @@ footer .linksbottom ul {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    padding-right: 5%;
+  }
+  .navbar .logo {
+    margin-left: 15%;
   }
   .navbar .toggle {
     display: -webkit-box;
@@ -178,22 +179,16 @@ footer .linksbottom ul {
             align-items: center;
     z-index: 2;
     cursor: pointer;
+    margin-right: 5%;
   }
   .navbar .links {
     position: fixed;
     background-color: white;
-    height: 100vh;
     width: 100%;
-    margin-left: -10%;
+    height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     clip-path: circle(100px at 90% -20%);
     -webkit-clip-path: circle(100px at 90% -20%);
     -webkit-transition: all 1s ease-out;
@@ -201,20 +196,15 @@ footer .linksbottom ul {
     pointer-events: none;
   }
   .navbar .links ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    position: fixed;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    height: 70vh;
-    width: 80%;
     text-align: center;
-    margin-top: -25%;
-    margin-right: -10%;
+    padding: 12vh;
+    height: 80vh;
+    margin-top: -30%;
   }
   .navbar .links ul li {
     opacity: 0;
@@ -249,23 +239,6 @@ footer .linksbottom ul {
   }
   .navbar .links li.fade {
     opacity: 1;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .navbar {
-    padding-left: 15%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    padding-right: 5%;
   }
 }
 
