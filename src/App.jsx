@@ -21,22 +21,22 @@ function App() {
       <div>
         <Navbar />
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/MaturaArbeit">
             <HomePage />
           </Route>
-          <Route exact path="/Matura">
+          <Route exact path="/MaturaArbeit/Matura">
             <Matura />
           </Route>
-          <Route exact path="/Geschichte">
+          <Route exact path="/MaturaArbeit/Geschichte">
             <Geschichte />
           </Route>
-          <Route exact path="/Marketing">
+          <Route exact path="/MaturaArbeit/Marketing">
             <Marketing />
           </Route>
-          <Route exact path="/Zukunft">
+          <Route exact path="/MaturaArbeit/Zukunft">
             <Zukunft />
           </Route>
-          <Redirect to="/" />
+          <Redirect to="/MaturaArbeit" />
         </Switch>
         <Footer />
       </div>

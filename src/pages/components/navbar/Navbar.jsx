@@ -12,27 +12,27 @@ const Navbar = () => {
             <div className="links">
                 <ul>
                     <li>
-                        <Link to="/">
+                        <Link to="/MaturaArbeit">
                             Home
                         </Link>
                     </li>
                     <li>
-                        <Link to="/Matura">
+                        <Link to="/MaturaArbeit/Matura">
                             Unsere Maturaarbeit
                         </Link>
                     </li>
                     <li>
-                        <Link to="/Geschichte">
+                        <Link to="/MaturaArbeit/Geschichte">
                             McDonalds Geschichte
                         </Link>
                     </li>
                     <li>
-                        <Link to="/Marketing">
+                        <Link to="/MaturaArbeit/Marketing">
                             McMarketing
                         </Link>
                     </li>
                     <li>
-                        <Link to="Zukunft">
+                        <Link to="/MaturaArbeit/Zukunft">
                             Zukunft
                         </Link>
                     </li>
