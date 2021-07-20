@@ -4,12 +4,13 @@ footer{
     margin-right: 20%;
     height: 17vh;
     background-color: rgb(255, 255, 255);
-    border-bottom: 1.5px solid rgba(128, 128, 128, 0.527);
+    border-bottom: 1.5px solid rgba(185, 185, 185, 0.527);
     margin-bottom: 5vh;
     display: flex;
     .linksbottom{
         width: 100%;
         display: flex;
+        flex-wrap:wrap ;
         justify-content: space-around;
         align-items: center;
         list-style: none;
