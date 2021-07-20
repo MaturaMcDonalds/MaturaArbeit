@@ -1,7 +1,11 @@
-@import "./navbar/navbar";
+@import "./components/button/button";
+@import "./components/footer/footer";
+@import "./components/navbar/navbar";
+@import "./components/panel/panel";
 @import "./home/homepage";
-@import "./button/button";
-@import "./footer/footer";
+@import "./geschichte/geschichte";
+@import "./marketing/marketing";
+@import "./zukunft/zukunft";
 
 *{
     box-sizing: border-box;

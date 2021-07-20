@@ -2,7 +2,7 @@ import React from 'react'
 import Info1 from "../../assets/Info1.png";
 import Info2 from "../../assets/Info2.png";
 import Info3 from "../../assets/Info3.png";
-import CostumButton from "../button/Button";
+import CostumButton from "../components/button/Button";
 
 export default function HomePage() {
     return (

@@ -73,15 +73,17 @@
         }   
     }  
 }
-@media only screen and (max-width: 461px) {
+@media only screen and (max-width: 500px) {
     .homepage{
+        padding-left: 2.5vh;
+        padding-right: 2.5vh;
         .infoBoxes{
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             .box{
-                width: 90%;    
+                width: 95%;    
             }
         }   
     }  
