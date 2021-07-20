@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MaturaArbeit/static/css/main.4f8cef2c.chunk.css",
-    "main.js": "/MaturaArbeit/static/js/main.40d5fcc6.chunk.js",
-    "main.js.map": "/MaturaArbeit/static/js/main.40d5fcc6.chunk.js.map",
+    "main.js": "/MaturaArbeit/static/js/main.3dc402aa.chunk.js",
+    "main.js.map": "/MaturaArbeit/static/js/main.3dc402aa.chunk.js.map",
     "runtime-main.js": "/MaturaArbeit/static/js/runtime-main.c7c2bb37.js",
     "runtime-main.js.map": "/MaturaArbeit/static/js/runtime-main.c7c2bb37.js.map",
     "static/js/2.220e9c55.chunk.js": "/MaturaArbeit/static/js/2.220e9c55.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.c7c2bb37.js",
     "static/js/2.220e9c55.chunk.js",
     "static/css/main.4f8cef2c.chunk.css",
-    "static/js/main.40d5fcc6.chunk.js"
+    "static/js/main.3dc402aa.chunk.js"
   ]
 }
