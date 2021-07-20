@@ -194,8 +194,8 @@ footer .linksbottom ul {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    clip-path: circle(100px at 90% -10%);
-    -webkit-clip-path: circle(100px at 90% -10%);
+    clip-path: circle(100px at 90% -20%);
+    -webkit-clip-path: circle(100px at 90% -20%);
     -webkit-transition: all 1s ease-out;
     transition: all 1s ease-out;
     pointer-events: none;
@@ -214,7 +214,7 @@ footer .linksbottom ul {
     width: 80%;
     text-align: center;
     margin-top: -25%;
-    margin-right: -20%;
+    margin-right: -10%;
   }
   .navbar .links ul li {
     opacity: 0;
@@ -244,8 +244,8 @@ footer .linksbottom ul {
   }
   .navbar .links.open {
     pointer-events: all;
-    clip-path: circle(1500px at 90% -10%);
-    -webkit-clip-path: circle(1500px at 90% -10%);
+    clip-path: circle(1500px at 90% -20%);
+    -webkit-clip-path: circle(1500px at 90% -20%);
   }
   .navbar .links li.fade {
     opacity: 1;

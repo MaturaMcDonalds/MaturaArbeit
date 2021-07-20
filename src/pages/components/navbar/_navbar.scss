@@ -88,7 +88,7 @@
                 width: 80%;
                 text-align: center; 
                 margin-top: -25%;
-                margin-right: -20%;
+                margin-right: -10%;
                 li{
                     opacity: 0;
                     a{
@@ -111,15 +111,15 @@
                     }
                 }
             }
-            clip-path: circle(100px at 90% -10%);
-            -webkit-clip-path:circle(100px at 90% -10%);
+            clip-path: circle(100px at 90% -20%);
+            -webkit-clip-path:circle(100px at 90% -20%);
             transition: all 1s ease-out;
             pointer-events: none;
         }
         .links.open{
             pointer-events: all;
-            clip-path: circle(1500px at 90% -10%);
-            -webkit-clip-path:circle(1500px at 90% -10%);
+            clip-path: circle(1500px at 90% -20%);
+            -webkit-clip-path:circle(1500px at 90% -20%);
         }
         .links li.fade{
             opacity: 1;
