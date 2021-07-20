@@ -17,7 +17,7 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link to="/Maturaarbeit">
+                        <Link to="/Matura">
                             Unsere Maturaarbeit
                         </Link>
                     </li>

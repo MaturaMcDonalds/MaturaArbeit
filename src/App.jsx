@@ -24,7 +24,7 @@ function App() {
           <Route exact path="/">
             <HomePage />
           </Route>
-          <Route exact path="/Maturaarbeit">
+          <Route exact path="/Matura">
             <Matura />
           </Route>
           <Route exact path="/Geschichte">
