@@ -363,6 +363,10 @@ footer .linksbottom ul {
   .homepage .infoBoxes .box {
     width: 80%;
   }
+  .homepage .infoBoxes .box img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 @media only screen and (max-width: 500px) {
