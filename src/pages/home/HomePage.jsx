@@ -7,7 +7,9 @@ import CostumButton from "../components/button/Button";
 export default function HomePage() {
     return (
         <div className="homepage">
-            <div className="carusel"></div>
+            <div className="carusel">
+                
+            </div>
             <div className="infoBoxes">
                 <div className="box">
                     <img src={Info1} alt="" srcset="" />
