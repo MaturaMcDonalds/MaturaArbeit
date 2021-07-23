@@ -1,14 +1,13 @@
 import React from 'react'
-import Info1 from "../../assets/Info1.png";
-import Info2 from "../../assets/Info2.png";
-import Info3 from "../../assets/Info3.png";
+import Info1 from "../../assets/home/Info1.png";
+import Info2 from "../../assets/home/Info2.png";
+import Info3 from "../../assets/home/Info3.png";
 import CostumButton from "../components/button/Button";
 
 export default function HomePage() {
     return (
         <div className="homepage">
             <div className="carusel">
-                
             </div>
             <div className="infoBoxes">
                 <div className="box">

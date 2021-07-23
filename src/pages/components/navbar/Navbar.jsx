@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from "../../../assets/Logo.png";
+import Logo from "../../../assets/navbar/Logo.png";
 import { AiOutlineMenu } from "react-icons/ai";
 import { Link, useLocation } from "react-router-dom";
 

@@ -1,3 +1,11 @@
+@keyframes carusel{
+    0%{
+
+    }
+    100%{
+
+    }
+}
 .homepage{
     width: 100%;
     padding-top: 5vh;
@@ -7,10 +15,12 @@
     display: flex;
     flex-direction: column;
     .carusel{
-        background-color: #e2a81752;
         width: 100%;
         height: 60vh;
         border-radius: 7px;
+        background-image: url("");
+        background-size: cover;
+	    background-repeat: no-repeat;
     }
     .infoBoxes{
         display: flex;
