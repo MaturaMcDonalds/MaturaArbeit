@@ -246,23 +246,27 @@ footer .linksbottom ul {
 
 @-webkit-keyframes carusel {
   0% {
+    content: url("https://github.com/MaturaMcDonalds/MaturaArbeit/blob/master/src/assets/home/Pic2.jpg?raw=true");
   }
-  100% {
+  50% {
+    content: url("https://github.com/MaturaMcDonalds/MaturaArbeit/blob/master/src/assets/home/Pic3.jpg?raw=true");
   }
 }
 
 @keyframes carusel {
   0% {
+    content: url("https://github.com/MaturaMcDonalds/MaturaArbeit/blob/master/src/assets/home/Pic2.jpg?raw=true");
   }
-  100% {
+  50% {
+    content: url("https://github.com/MaturaMcDonalds/MaturaArbeit/blob/master/src/assets/home/Pic3.jpg?raw=true");
   }
 }
 
 .homepage {
   width: 100%;
   padding-top: 5vh;
-  padding-left: 7vh;
-  padding-right: 7vh;
+  padding-left: 7vw;
+  padding-right: 7vw;
   padding-bottom: 7vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -277,9 +281,20 @@ footer .linksbottom ul {
   width: 100%;
   height: 60vh;
   border-radius: 7px;
-  background-image: url("");
-  background-size: cover;
-  background-repeat: no-repeat;
+  border: 1px solid rgba(212, 212, 212, 0.514);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.homepage .carusel .img {
+  height: 100%;
 }
 
 .homepage .infoBoxes {
@@ -390,6 +405,9 @@ footer .linksbottom ul {
     padding-left: 2.5vh;
     padding-right: 2.5vh;
   }
+  .homepage .carusel .img {
+    height: 75%;
+  }
   .homepage .infoBoxes {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -411,12 +429,11 @@ footer .linksbottom ul {
 }
 
 .matura {
-  width: 100%;
   height: 50vh;
-  padding-top: 5vh;
-  padding-left: 7vh;
-  padding-right: 7vh;
-  padding-bottom: 7vh;
+  margin-top: 5vh;
+  margin-left: 7vw;
+  margin-right: 7vw;
+  margin-bottom: 7vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -424,21 +441,7 @@ footer .linksbottom ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: wheat;
-}
-
-@media only screen and (min-width: 1700px) {
-  .matura {
-    padding-left: 30vh;
-    padding-right: 30vh;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .matura {
-    padding-left: 2.5vh;
-    padding-right: 2.5vh;
-  }
+  background-color: rgba(214, 160, 61, 0.459);
 }
 
 * {

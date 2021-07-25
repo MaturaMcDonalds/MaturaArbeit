@@ -1,16 +1,16 @@
 @keyframes carusel{
     0%{
-
+        content:url("https://github.com/MaturaMcDonalds/MaturaArbeit/blob/master/src/assets/home/Pic2.jpg?raw=true");
     }
-    100%{
-
+    50%{
+        content:url("https://github.com/MaturaMcDonalds/MaturaArbeit/blob/master/src/assets/home/Pic3.jpg?raw=true");
     }
 }
 .homepage{
     width: 100%;
     padding-top: 5vh;
-    padding-left: 7vh;
-    padding-right: 7vh;
+    padding-left: 7vw;
+    padding-right: 7vw;
     padding-bottom: 7vh;
     display: flex;
     flex-direction: column;
@@ -18,9 +18,14 @@
         width: 100%;
         height: 60vh;
         border-radius: 7px;
-        background-image: url("");
-        background-size: cover;
-	    background-repeat: no-repeat;
+        border: 1px solid rgba(212, 212, 212, 0.514);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .img{
+            height: 100%;
+            //animation: carusel 20s infinite;
+        }
     }
     .infoBoxes{
         display: flex;
@@ -91,6 +96,11 @@
     .homepage{
         padding-left: 2.5vh;
         padding-right: 2.5vh;
+        .carusel{
+            .img{
+                height: 75%;
+            }
+        }
         .infoBoxes{
             display: flex;
             flex-direction: column;
