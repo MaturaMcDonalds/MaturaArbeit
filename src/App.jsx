@@ -2,7 +2,6 @@ import React from 'react'
 import "./pages/style.css"
 import Navbar from "./pages/components/navbar/Navbar";
 import Footer from "./pages/components/footer/Footer";
-import Matura from "./pages/matura/Matura";
 import HomePage from "./pages/home/HomePage";
 import Geschichte from "./pages/geschichte/Geschichte";
 import Marketing from "./pages/marketing/Marketing";
@@ -14,6 +13,7 @@ import {
   Route,
   Redirect
 } from "react-router-dom";
+import McAktuell from './pages/mcaktuell/McAktuell';
 
 function App() {
   return (
@@ -24,8 +24,8 @@ function App() {
           <Route exact path="/MaturaArbeit">
             <HomePage />
           </Route>
-          <Route exact path="/MaturaArbeit/Matura">
-            <Matura />
+          <Route exact path="/MaturaArbeit/McAktuell">
+            <McAktuell />
           </Route>
           <Route exact path="/MaturaArbeit/Geschichte">
             <Geschichte />

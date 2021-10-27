@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 .button {
   background-color: #ffbc0d;
   border: .125rem solid #ffbc0d;
@@ -281,7 +282,8 @@ footer .linksbottom ul {
   width: 100%;
   height: 60vh;
   border-radius: 7px;
-  border: 1px solid rgba(212, 212, 212, 0.514);
+  background-color: rgba(128, 128, 128, 0.247);
+  border: 1px solid rgba(212, 212, 212, 0.87);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -428,12 +430,8 @@ footer .linksbottom ul {
   }
 }
 
-.matura {
-  height: 50vh;
-  margin-top: 5vh;
-  margin-left: 7vw;
-  margin-right: 7vw;
-  margin-bottom: 7vh;
+.mcAktuell {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -441,7 +439,123 @@ footer .linksbottom ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: rgba(214, 160, 61, 0.459);
+  background-color: #ffffff;
+}
+
+.mcAktuell #heroWithPictureRight {
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  padding-left: 17vw;
+  padding-right: 17vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mcAktuell #heroWithPictureRight .left {
+  padding: 1%;
+}
+
+.mcAktuell #heroWithPictureRight .left h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 2vh;
+}
+
+.mcAktuell #heroWithPictureRight .left h1 span {
+  color: #ffbc0d;
+}
+
+.mcAktuell #heroWithPictureRight .left p {
+  font-weight: 300;
+  font-size: medium;
+  max-width: 80%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.mcAktuell #heroWithPictureRight .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mcAktuell #heroWithPictureRight .right .imgHero {
+  height: 30vh;
+}
+
+.mcAktuell #sectionWithPictureBelow {
+  background-color: #f7f7f7;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  padding-left: 17vw;
+  padding-right: 17vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mcAktuell #sectionWithPictureBelow .top {
+  padding: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mcAktuell #sectionWithPictureBelow .top #imlovinit {
+  font-weight: 700;
+  font-size: 4rem;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 4vh;
+}
+
+.mcAktuell #sectionWithPictureBelow .top #imlovinit span {
+  color: #ffbc0d;
+}
+
+.mcAktuell #sectionWithPictureBelow .top p {
+  font-weight: 300;
+  font-size: medium;
+  max-width: 90%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.mcAktuell #sectionWithPictureBelow .bottom {
+  margin-top: 3vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mcAktuell #sectionWithPictureBelow .bottom .imgHero {
+  height: 40vh;
+  width: 80%;
 }
 
 * {
@@ -449,7 +563,19 @@ footer .linksbottom ul {
           box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'calibri', sans-serif;
+  font-family: "calibri", sans-serif;
+}
+
+* p,
+* h1,
+* h2,
+* h3,
+* h4,
+* h5,
+* a,
+* li,
+* strong {
+  font-family: "Open Sans", sans-serif;
 }
 
 *:focus {

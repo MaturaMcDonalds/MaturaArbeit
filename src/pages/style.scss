@@ -1,19 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
 @import "./components/button/button";
 @import "./components/footer/footer";
 @import "./components/navbar/navbar";
 @import "./components/panel/panel";
 @import "./home/homepage";
-@import "./matura/matura";
 @import "./geschichte/geschichte";
 @import "./marketing/marketing";
 @import "./zukunft/zukunft";
+@import "./mcaktuell/mcaktuell";
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    &:focus {
-        outline: none;
-    }
-    font-family: 'calibri', sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  a,
+  li,
+  strong {
+    font-family: "Open Sans", sans-serif;
+  }
+  &:focus {
+    outline: none;
+  }
+  font-family: "calibri", sans-serif;
 }

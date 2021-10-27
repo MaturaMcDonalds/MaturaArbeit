@@ -26,12 +26,12 @@ const Navbar = () => {
                 <ul>
                     <li>
                         <Link to="/MaturaArbeit">
-                            Home
+                        Unsere Maturaarbeit
                         </Link>
                     </li>
                     <li>
-                        <Link to="/MaturaArbeit/Matura">
-                            Unsere Maturaarbeit
+                        <Link to="/MaturaArbeit/McAktuell">
+                        McAktuell
                         </Link>
                     </li>
                     <li>
@@ -42,11 +42,6 @@ const Navbar = () => {
                     <li>
                         <Link to="/MaturaArbeit/Marketing">
                             McMarketing
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to="/MaturaArbeit/Zukunft">
-                            Zukunft
                         </Link>
                     </li>
                 </ul>
