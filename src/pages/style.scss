@@ -9,22 +9,12 @@
 @import "./marketing/marketing";
 @import "./zukunft/zukunft";
 @import "./mcaktuell/mcaktuell";
+@import "./articles/article";
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  a,
-  li,
-  strong {
-    font-family: "Open Sans", sans-serif;
-  }
   &:focus {
     outline: none;
   }

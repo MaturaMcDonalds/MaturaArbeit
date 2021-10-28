@@ -1,18 +1,19 @@
-.button{
-    background-color: #ffbc0d;
-    border: .125rem solid #ffbc0d;
-    padding: 1vh;
-    border-radius: 2.5px;
-    margin:1vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 45%;
-    p{
-        font-size: medium;
-    }
-    &:hover {
-        cursor: pointer;
-        box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, .2);
-    }            
+.button {
+  background-color: #ffbc0d;
+  border: 0.125rem solid #ffbc0d;
+  padding: 1vh;
+  border-radius: 2.5px;
+  margin: 1vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  p {
+    font-family: "Open Sans", sans-serif;
+    font-size: medium;
+  }
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.2);
+  }
 }

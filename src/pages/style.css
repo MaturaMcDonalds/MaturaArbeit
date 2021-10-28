@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 .button {
   background-color: #ffbc0d;
-  border: .125rem solid #ffbc0d;
+  border: 0.125rem solid #ffbc0d;
   padding: 1vh;
   border-radius: 2.5px;
   margin: 1vh;
@@ -18,6 +18,7 @@
 }
 
 .button p {
+  font-family: "Open Sans", sans-serif;
   font-size: medium;
 }
 
@@ -38,6 +39,7 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-family: "Open Sans", sans-serif;
 }
 
 footer .linksbottom {
@@ -53,6 +55,7 @@ footer .linksbottom {
       -ms-flex-align: center;
           align-items: center;
   list-style: none;
+  font-family: "Open Sans", sans-serif;
 }
 
 footer .linksbottom ul {
@@ -60,6 +63,7 @@ footer .linksbottom ul {
   display: -ms-flexbox;
   display: flex;
   width: auto;
+  font-family: "Open Sans", sans-serif;
 }
 
 .navbar {
@@ -123,6 +127,7 @@ footer .linksbottom ul {
 }
 
 .navbar .links ul li a {
+  font-family: "Open Sans", sans-serif;
   text-decoration: none;
   color: black;
 }
@@ -213,6 +218,7 @@ footer .linksbottom ul {
     opacity: 0;
   }
   .navbar .links ul li a {
+    font-family: "Open Sans", sans-serif;
     font-size: large;
   }
   .navbar .links ul li:nth-child(1) {
@@ -363,6 +369,7 @@ footer .linksbottom ul {
 
 .homepage .infoBoxes .box .textbuttonheader p {
   max-width: 80%;
+  font-family: "Open Sans", sans-serif;
   text-align: center;
 }
 
@@ -560,24 +567,86 @@ footer .linksbottom ul {
   width: 80%;
 }
 
+.article {
+  margin-top: 2vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 25vw;
+  margin-right: 25vw;
+}
+
+.article .title {
+  font-size: 2.2rem;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 1vh;
+  text-align: center;
+}
+
+.article .subtitle {
+  text-align: justify;
+  font-family: "Open Sans", sans-serif;
+}
+
+.article p {
+  line-height: 180%;
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
+}
+
+.article #gp1 {
+  margin: 1vh;
+  max-width: 100%;
+}
+
+.article #gp2 {
+  margin: 1vh;
+  max-width: 60%;
+}
+
+.article .text-picright {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.article .text-picright p {
+  font-family: "Open Sans", sans-serif;
+  margin-right: 1vw;
+}
+
+.article .text-picright img {
+  -webkit-transform: translate(1vh, -1vh);
+          transform: translate(1vh, -1vh);
+}
+
+.article #aufzaehlung {
+  -ms-flex-item-align: baseline;
+      align-self: baseline;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: "calibri", sans-serif;
-}
-
-* p,
-* h1,
-* h2,
-* h3,
-* h4,
-* h5,
-* a,
-* li,
-* strong {
-  font-family: "Open Sans", sans-serif;
 }
 
 *:focus {

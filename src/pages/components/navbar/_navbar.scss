@@ -30,6 +30,7 @@
       li {
         font-size: larger;
         a {
+          font-family: "Open Sans", sans-serif;
           text-decoration: none;
           color: black;
         }
@@ -90,6 +91,7 @@
         li {
           opacity: 0;
           a {
+            font-family: "Open Sans", sans-serif;
             font-size: large;
           }
           &:nth-child(1) {

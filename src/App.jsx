@@ -14,6 +14,7 @@ import {
   Redirect
 } from "react-router-dom";
 import McAktuell from './pages/mcaktuell/McAktuell';
+import Grundprinzipien from './pages/articles/grundprinzipien/Grundprinzipien';
 
 function App() {
   return (
@@ -35,6 +36,9 @@ function App() {
           </Route>
           <Route exact path="/MaturaArbeit/Zukunft">
             <Zukunft />
+          </Route>
+          <Route exact path="/MaturaArbeit/Grundprinzipien">
+            <Grundprinzipien/>
           </Route>
           <Redirect to="/MaturaArbeit" />
         </Switch>
