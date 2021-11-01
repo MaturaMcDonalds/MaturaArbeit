@@ -36,7 +36,7 @@ const Navbar = () => {
                     </li>
                     <li>
                         <Link to="/MaturaArbeit/Geschichte">
-                            McDonalds Geschichte
+                            McDonalds Vergangenheit
                         </Link>
                     </li>
                     <li>
