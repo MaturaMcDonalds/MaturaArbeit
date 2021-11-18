@@ -9,7 +9,7 @@ export default function HomePage() {
     return (
         <div className="homepage">
             <div className="inprogress" scroll="no">
-                <p className="textInProgress">In Progress</p>
+                <p className="textInProgress">Work in progress</p>
             </div>
             <div className="carusel">
                 
