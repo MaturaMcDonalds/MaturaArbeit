@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/MaturaArbeit/static/css/main.f95cf22f.chunk.css",
-    "main.js": "/MaturaArbeit/static/js/main.ed76f49e.chunk.js",
-    "main.js.map": "/MaturaArbeit/static/js/main.ed76f49e.chunk.js.map",
+    "main.css": "/MaturaArbeit/static/css/main.e9672f92.chunk.css",
+    "main.js": "/MaturaArbeit/static/js/main.bf1a08ec.chunk.js",
+    "main.js.map": "/MaturaArbeit/static/js/main.bf1a08ec.chunk.js.map",
     "runtime-main.js": "/MaturaArbeit/static/js/runtime-main.c7c2bb37.js",
     "runtime-main.js.map": "/MaturaArbeit/static/js/runtime-main.c7c2bb37.js.map",
     "static/js/2.ec0e27bf.chunk.js": "/MaturaArbeit/static/js/2.ec0e27bf.chunk.js",
     "static/js/2.ec0e27bf.chunk.js.map": "/MaturaArbeit/static/js/2.ec0e27bf.chunk.js.map",
     "index.html": "/MaturaArbeit/index.html",
-    "static/css/main.f95cf22f.chunk.css.map": "/MaturaArbeit/static/css/main.f95cf22f.chunk.css.map",
+    "static/css/main.e9672f92.chunk.css.map": "/MaturaArbeit/static/css/main.e9672f92.chunk.css.map",
     "static/js/2.ec0e27bf.chunk.js.LICENSE.txt": "/MaturaArbeit/static/js/2.ec0e27bf.chunk.js.LICENSE.txt",
     "static/media/Info1.f219c16f.png": "/MaturaArbeit/static/media/Info1.f219c16f.png",
     "static/media/Info2.644307e2.png": "/MaturaArbeit/static/media/Info2.644307e2.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.c7c2bb37.js",
     "static/js/2.ec0e27bf.chunk.js",
-    "static/css/main.f95cf22f.chunk.css",
-    "static/js/main.ed76f49e.chunk.js"
+    "static/css/main.e9672f92.chunk.css",
+    "static/js/main.bf1a08ec.chunk.js"
   ]
 }
