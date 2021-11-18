@@ -8,10 +8,7 @@ import box3 from "../../assets/img/box3.png"
 export default function Marketing() {
     return (
         <div className="marketing">
-            <h1 className="title">McVergangenheit</h1>
-            <div className="herowithbox">
-                <img src={pic1} alt="" ></img>
-            </div>
+
         </div>
     )
 }

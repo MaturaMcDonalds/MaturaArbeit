@@ -5,12 +5,14 @@ import Info3 from "../../assets/home/Info3.png";
 import CostumButton from "../components/button/Button";
 
 //<img src="https://github.com/MaturaMcDonalds/MaturaArbeit/blob/master/src/assets/home/Pic2.jpg?raw=true" alt="" className="img" />
+/*
+<div className="inprogress" scroll="no">
+                <p className="textInProgress">Work in progress</p>
+            </div> 
+*/
 export default function HomePage() {
     return (
         <div className="homepage">
-            <div className="inprogress" scroll="no">
-                <p className="textInProgress">Work in progress</p>
-            </div>
             <div className="carusel">
                 
             </div>
