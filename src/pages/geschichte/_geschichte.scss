@@ -11,23 +11,36 @@
     font-weight: 500;
   }
   .top {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 30% 10%;
+    grid-template-rows: 20% 30% 10% 20% 20%;
     img {
+      grid-column-start: 1;
+      grid-column-end: 6;
+      grid-row-start: 1;
+      grid-row-end: 6;
       border-radius: 5px;
       max-width: 100%;
     }
     .textOverImg {
+      grid-column-start: 4;
+      grid-column-end: 5;
+      grid-row-start: 2;
+      grid-row-end: 3;
       -webkit-box-shadow: 2px 2px 20px -10px rgba(0, 0, 0, 0.5);
       box-shadow: 2px 2px 20px -10px rgba(0, 0, 0, 0.5);
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      width: 20vw;
-      padding: 1.5%;
+      padding: 5.5%;
       text-align: center;
-      position: absolute;
-      transform: translate(30vw, -27vw);
       background-color: white;
+      .heroTextTitle {
+        font-weight: 600;
+        font-size: 25px;
+      }
       button {
         margin-top: 1vh;
         background-color: #298c3e;
@@ -96,6 +109,44 @@
         height: 100%;
         object-fit: cover;
         border-radius: 0 5px 5px 0;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
+  /*Tablets [601px -> 1200px]*/
+  .mcGeschichte {
+    h1 {
+    }
+    .top {
+      img {
+      }
+      .textOverImg {
+        .heroTextTitle {
+        }
+        button {
+          p {
+          }
+          &:hover {
+          }
+        }
+      }
+    }
+    .articleBox {
+      .left {
+        .boxtext {
+        }
+        button {
+          p {
+          }
+          &:hover {
+          }
+        }
+      }
+      .right {
+        img {
+        }
       }
     }
   }

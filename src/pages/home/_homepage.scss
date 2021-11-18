@@ -6,7 +6,26 @@
     content: url("https://github.com/MaturaMcDonalds/MaturaArbeit/blob/master/src/assets/home/Pic3.jpg?raw=true");
   }
 }
+
 .homepage {
+  .inprogress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 180vh;
+    overflow: hidden;
+
+    background-color: rgba(220, 220, 220, 0.733);
+    z-index: 50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .textInProgress {
+      font-size: 200px;
+      transform: translateY(-450px);
+    }
+  }
   width: 100%;
   padding-top: 5vh;
   padding-left: 7vw;

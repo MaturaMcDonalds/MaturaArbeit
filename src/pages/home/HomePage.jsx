@@ -8,6 +8,9 @@ import CostumButton from "../components/button/Button";
 export default function HomePage() {
     return (
         <div className="homepage">
+            <div className="inprogress" scroll="no">
+                <p className="textInProgress">In Progress</p>
+            </div>
             <div className="carusel">
                 
             </div>

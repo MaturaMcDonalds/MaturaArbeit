@@ -14,7 +14,7 @@ const Geschichte = () => {
             <div className="top">
                 <img src={pic1} alt="" ></img>
                 <div className="textOverImg">
-                    <h2>Grundprinzipien und wo sie herkommen</h2>
+                    <p className="heroTextTitle">Grundprinzipien und wo sie herkommen</p>
                     <p>Eine geschichtliche Einführungs in das Universum des riesigen Fast-Food Konzerns</p>
                     <button onClick={()=>{history.push("/MaturaArbeit/Grundprinzipien")}}><p>Mehr erfahren</p></button>
                 </div>
