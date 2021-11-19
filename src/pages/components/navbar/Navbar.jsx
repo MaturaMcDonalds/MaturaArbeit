@@ -41,7 +41,7 @@ const Navbar = () => {
                     </li>
                     <li>
                         <Link to="/MaturaArbeit/Marketing">
-                            McMarketing
+                            McWerbepsychologie
                         </Link>
                     </li>
                 </ul>

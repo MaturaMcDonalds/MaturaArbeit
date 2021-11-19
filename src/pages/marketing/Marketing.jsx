@@ -1,14 +1,20 @@
 import React from 'react'
 
-import pic1 from "../../assets/img/grundprinzipien1.png";
-import box1 from "../../assets/img/box1.png"
-import box2 from "../../assets/img/box2.png"
-import box3 from "../../assets/img/box3.png"
+import pic1 from "../../assets/rndimg/werbepsychologie.png";
 
 export default function Marketing() {
     return (
         <div className="marketing">
-
+            <div className="herotitle">
+                <p>McWerbepsychologie</p>
+                <img src={pic1} alt="" srcset="" />
+            </div>
+            <div className="boxes">
+                <div className="box1"></div>
+                <div className="box2"></div>
+                <div className="box3"></div>
+                <div className="box4"></div>
+            </div>
         </div>
     )
 }
