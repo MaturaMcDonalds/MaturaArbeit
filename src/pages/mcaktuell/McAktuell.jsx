@@ -12,7 +12,7 @@ function McAktuell() {
     let history = useHistory();
     return (
         <div className="mcAktuell">
-            <h1>McAktuell & Werbepsychologie</h1>
+            <h1 className="mcAktuellTitle">McAktuell & Werbepsychologie</h1>
             <div className="top">
                 <img src={hero} alt="" ></img>
                 <div className="textOverImg">

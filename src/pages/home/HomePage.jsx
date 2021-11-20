@@ -1,7 +1,9 @@
 import React from 'react'
-import Info1 from "../../assets/home/Info1.png";
-import Info2 from "../../assets/home/Info2.png";
-import Info3 from "../../assets/home/Info3.png";
+
+import box1 from "../../assets/homepage/box1.png";
+import box2 from "../../assets/homepage/box2.png";
+import box3 from "../../assets/homepage/box3.png";
+import hero from "../../assets/mczukunft/werbepsychologie.png"
 import CostumButton from "../components/button/Button";
 
 //<img src="https://github.com/MaturaMcDonalds/MaturaArbeit/blob/master/src/assets/home/Pic2.jpg?raw=true" alt="" className="img" />
@@ -14,39 +16,37 @@ export default function HomePage() {
     return (
         <div className="homepage">
             <div className="carusel">
-                
+                <img src={hero} alt="" />
             </div>
             <div className="infoBoxes">
                 <div className="box">
-                    <img src={Info1} alt="" srcset="" />
+                    <img src={box1} alt="" srcset="" />
                     <div className="textbuttonheader">
-                        <p className="boxheader">Wir sind für dich da!</p>
+                        <p className="boxheader">Historische Grundprizipien</p>
                         <p className="boxtext">
-                            Hier findest du alle aktuellen Informationen zu den Services
-                            und Öffnungszeiten der McDonald's Restaurants in deiner Region.
+                        Und wo sie herkommen
                         </p>
-                        <CostumButton text={"Mehr Erfahren"} className="boxbtn" />
+                        <CostumButton text={"Nachlesen"} className="boxbtn" />
                     </div>
                 </div>
                 <div className="box">
-                    <img src={Info2} alt="" srcset="" />
+                    <img src={box2} alt="" srcset="" />
                     <div className="textbuttonheader">
-                        <p className="boxheader">Unsere Sicherheitsmassnahmen</p>
-                        <p className="boxtext">
-                            Die Gesundheit und Sicherheit aller Gäste und Mitarbeitenden wird bei uns gross geschrieben
+                        <p className="boxheader" id="Klimawandel">Klimawandel</p>
+                        <p className="boxtext" id="Klimawandel">
+                        Was macht McDonald’s dagegen?
                         </p>
-                        <CostumButton text={"Mehr Informationen"} className="boxbtn" />
+                        <CostumButton text={"Nachlesen"} className="boxbtn" />
                     </div>
                 </div>
                 <div className="box">
-                    <img src={Info3} alt="" srcset="" />
+                    <img src={box3} alt="" srcset="" />
                     <div className="textbuttonheader">
-                        <p className="boxheader">Wir sind für dich da!</p>
+                        <p className="boxheader">McWerbepsychologie</p>
                         <p className="boxtext">
-                            Hier findest du alle aktuellen Informationen zu den Services
-                            und Öffnungszeiten der McDonald's Restaurants in deiner Region.
+                        Was steckt dahinter?
                         </p>
-                        <CostumButton text={"Mehr Erfahren"} className="boxbtn" />
+                        <CostumButton text={"Nachlesen"} className="boxbtn" />
                     </div>
                 </div>
             </div>

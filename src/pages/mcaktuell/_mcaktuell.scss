@@ -6,9 +6,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  h1 {
+  .mcAktuellTitle {
     margin-bottom: 3vh;
     font-weight: 500;
+    font-size: 45px;
   }
   .top {
     overflow: hidden;
@@ -79,6 +80,7 @@
       padding-bottom: 3vh;
       padding-right: 5vw;
       .boxtext {
+        margin-top: 2vh;
         font-weight: 400;
         font-size: large;
         transform: translateY(-2vh);

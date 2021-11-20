@@ -10,7 +10,7 @@ const Geschichte = () => {
     let history = useHistory();
     return (
         <div className="mcGeschichte">
-            <h1>McVergangenheit</h1>
+            <h1 className="mcGeschichteTitle">McVergangenheit</h1>
             <div className="top">
                 <img src={pic1} alt="" ></img>
                 <div className="textOverImg">

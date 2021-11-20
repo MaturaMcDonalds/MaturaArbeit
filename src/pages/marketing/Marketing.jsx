@@ -13,7 +13,7 @@ export default function Marketing() {
     let history = useHistory();
     return (
         <div className="mcMarketing">
-            <h1>McZukunft</h1>
+            <h1 className="mcaktuellTitle">McZukunft</h1>
             <div className="emptyBox">
                 <p className="heroTextTitle">Wie forscht man in die Zukunft</p>
                 <p className="heroText">Eine Erklärung, wie wir auf die Ergebenisse der anderen Artikel von McZukunft gekommen sind</p>
