@@ -1,0 +1,135 @@
+@keyframes carusel {
+  0% {
+    content: url("https://github.com/MaturaMcDonalds/MaturaArbeit/blob/master/src/assets/home/Pic2.jpg?raw=true");
+  }
+  50% {
+    content: url("https://github.com/MaturaMcDonalds/MaturaArbeit/blob/master/src/assets/home/Pic3.jpg?raw=true");
+  }
+}
+
+.matura {
+  .inprogress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500vh;
+    overflow: hidden;
+
+    background-color: rgba(220, 220, 220, 0.733);
+    z-index: 50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .textInProgress {
+      font-size: larger;
+      transform: translateY(-1400px);
+    }
+  }
+  width: 100%;
+  padding-top: 5vh;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  padding-bottom: 7vh;
+  display: flex;
+  flex-direction: column;
+  .carusel {
+    width: 100%;
+    height: 60vh;
+    border-radius: 7px;
+    background-color: rgba(128, 128, 128, 0.247);
+    border: 1px solid rgba(212, 212, 212, 0.87);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .img {
+      height: 100%;
+      //animation: carusel 20s infinite;
+    }
+  }
+  .infoBoxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .box {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border: 0.5px solid rgba(128, 128, 128, 0.226);
+      width: 32%;
+      border-radius: 7px;
+      margin-top: 4vh;
+      img {
+        border-radius: 7px 7px 0px 0px;
+        max-height: 100%;
+      }
+      .textbuttonheader {
+        margin-top: 1vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        .boxheader {
+          font-size: x-large;
+          font-weight: bolder;
+          margin-bottom: 0.5vh;
+          max-width: 80%;
+          word-break: break-all;
+        }
+        p {
+          max-width: 80%;
+          font-family: "Open Sans", sans-serif;
+          text-align: center;
+        }
+        button {
+          margin-top: 2vh;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .matura {
+    padding-left: 30vh;
+    padding-right: 30vh;
+  }
+}
+@media only screen and (max-width: 880px) {
+  .matura {
+    .infoBoxes {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .box {
+        width: 80%;
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 500px) {
+  .matura {
+    padding-left: 2.5vh;
+    padding-right: 2.5vh;
+    .carusel {
+      .img {
+        height: 75%;
+      }
+    }
+    .infoBoxes {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .box {
+        width: 95%;
+      }
+    }
+  }
+}

@@ -1,49 +1,82 @@
-import React from 'react'
-import Img from "../../assets/img/placeholder.png";
+import React from 'react';
+import { useHistory } from "react-router-dom";
+
+import hero from "../../assets/mcaktuell/hero.png";
+import box1 from "../../assets/mcaktuell/box1.png";
+import box2 from "../../assets/mcaktuell/box2.png";
+import box3 from "../../assets/mcaktuell/box3.png";
+import box4 from "../../assets/mcaktuell/box4.png";
+
 
 function McAktuell() {
+    let history = useHistory();
     return (
         <div className="mcAktuell">
-            <section id="heroWithPictureRight" className="light">
+            <h1>McAktuell & Werbepsychologie</h1>
+            <div className="top">
+                <img src={hero} alt="" ></img>
+                <div className="textOverImg">
+                    <p className="heroTextTitle">Klimawandel und Verpackungen</p>
+                    <p className="heroText">Was McDonald’s gegen die Herausforderung tut, vor der die Menschheit steht</p>
+                    <button onClick={()=>{history.push("/MaturaArbeit/Grundprinzipien")}}><p>Mehr erfahren</p></button>
+                </div>
+            </div>
+            <div className="articleBox">
                 <div className="left">
                     <h1>
-                        <span>McDonalds</span> Aktuell
+                    Werbepsychologie
                     </h1>
-                    <p>
-                    Lorem ipsum dolor sit <strong>amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
-                    tempor invidunt ut </strong>
-                     labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam 
-                    et justo duo dolores et ea rebum. 
-                    Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum 
-                    dolor sit amet. Lorem ipsum dolor sit amet, 
-                    consetetur sadipscing elitr, sed diam nonumy 
-                    eirmod tempor invidunt ut labore et dolore magna 
-                    aliquyam erat, sed diam voluptua. At vero eos et accusam 
-                    et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
-                    no sea takimata sanctus est Lorem ipsum dolor sit amet.                    
+                    <p className="boxtext">
+                    Eine Erläuterung was dahinter steckt anhand von Modellen, Theorien und Fallbeispielen
                     </p>
+                    <button><p>Nachlesen</p></button>
                 </div>
                 <div className="right">
-                    <img src={Img} className="imgHero" alt="" srcset="" />
+                    <img src={box1} alt="" />
                 </div>
-            </section>
-            <section id="sectionWithPictureBelow" className="dark">
-            <div className="top">
-                    <h1 id="imlovinit">
-                        i'm <span>lovin'</span> it
+            </div>
+            <div className="articleBox">
+                <div className="left">
+                    <h1>
+                    Was macht McDonalds für, die kein Fleisch wollen?
                     </h1>
-                    <p>
-                    Lorem ipsum dolor sit <strong>amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
-                    tempor invidunt ut </strong>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, <strong>sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</strong> Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<strong> Stet clita kasd gubergren, no sea takimata sanctus est</strong> Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
-
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at <strong>vero eros et accumsan et iusto odio dignissim </strong>qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,                
+                    <p className="boxtext">
+                    Was gibt’s überhaupt ausser Pommes?
                     </p>
+                    <button><p>Nachlesen</p></button>
                 </div>
-                <div className="bottom">
-                    <img src={Img} className="imgHero" alt="" srcset="" />
+                <div className="right">
+                <img src={box2} alt="" />
                 </div>
-            </section>
+            </div>
+            <div className="articleBox">
+                <div className="left">
+                    <h1>
+                    Was passierte während unserer Arbeit?
+                    </h1>
+                    <p className="boxtext">
+                    Eine Auswahl an Ereignissen die das McMarketing der letzten Monate prägnten
+                    </p>
+                    <button><p>Nachlesen</p></button>
+                </div>
+                <div className="right">
+                <img src={box3} alt="" />
+                </div>
+            </div>
+            <div className="articleBox">
+                <div className="left">
+                    <h1>
+                    Was ist den Heute los?
+                    </h1>
+                    <p className="boxtext">
+                    Ein Einblick in die Marketingprinzipien von Heute
+                    </p>
+                    <button><p>Nachlesen</p></button>
+                </div>
+                <div className="right">
+                <img src={box4} alt="" />
+                </div>
+            </div>
         </div>
     )
 }
