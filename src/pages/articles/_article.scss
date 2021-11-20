@@ -6,41 +6,143 @@
   align-items: center;
   margin-left: 25vw;
   margin-right: 25vw;
-  .title {
-    font-size: 2.2rem;
-    font-family: "Open Sans", sans-serif;
-    margin-bottom: 1vh;
-    text-align: center;
-  }
-  .subtitle {
-    text-align: justify;
-    font-family: "Open Sans", sans-serif;
-  }
   p {
     line-height: 180%;
     font-family: "Open Sans", sans-serif;
-    text-align: justify;
+    text-align: start;
   }
-  #gp1 {
+}
+.title {
+  font-size: 2.2rem;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 1vh;
+  text-align: center;
+}
+.subtitle {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.text-picright {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  display: flex;
+  flex-direction: row;
+  p {
+    font-family: "Open Sans", sans-serif;
+    margin-right: 1vw;
+    text-align: start;
+  }
+
+  img {
     margin: 1vh;
-    max-width: 100%;
+    max-width: 50%;
+    height: auto;
+    transform: translate(1vh, -1vh);
   }
+}
+
+.subTitleImg {
+  text-align: right;
+  color: gainsboro;
+}
+#gp1 {
+  margin: 1vh;
+  max-width: 100%;
+}
+
+#aufzaehlung {
+  align-self: baseline;
+  p {
+    text-align: start;
+  }
+}
+
+@media only screen and (max-width: 1336px) {
   .text-picright {
     margin-top: 2vh;
     margin-bottom: 2vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     p {
       font-family: "Open Sans", sans-serif;
       margin-right: 1vw;
+      text-align: start;
     }
     img {
       margin: 1vh;
-      height: 40vh;
-      transform: translate(1vh, -1vh);
+      max-width: 100%;
+      height: auto;
+      transform: translateX(-1vw);
     }
   }
-  #aufzaehlung {
-    align-self: baseline;
+}
+
+@media only screen and (max-width: 375px) {
+  .title {
+    font-size: 2.2rem;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 3vh;
+    text-align: center;
+  }
+  .article {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    p {
+      line-height: 180%;
+      font-family: "Open Sans", sans-serif;
+      text-align: start;
+    }
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .title {
+    font-size: 2.2rem;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 3vh;
+    text-align: center;
+  }
+  .article {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    p {
+      line-height: 180%;
+      font-family: "Open Sans", sans-serif;
+      text-align: start;
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .title {
+    font-size: 2.2rem;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 3vh;
+    text-align: center;
+  }
+  .article {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 14vw;
+    margin-right: 14vw;
+    p {
+      line-height: 180%;
+      font-family: "Open Sans", sans-serif;
+      text-align: start;
+    }
   }
 }

@@ -6,6 +6,7 @@ import box1 from "../../assets/mcaktuell/box1.png";
 import box2 from "../../assets/mcaktuell/box2.png";
 import box3 from "../../assets/mcaktuell/box3.png";
 import box4 from "../../assets/mcaktuell/box4.png";
+import box1new from "../../assets/mcaktuell/box1new.png";
 
 
 function McAktuell() {
@@ -32,7 +33,7 @@ function McAktuell() {
                     <button><p>Nachlesen</p></button>
                 </div>
                 <div className="right">
-                    <img src={box1} alt="" />
+                    <img src={box1new} alt="" />
                 </div>
             </div>
             <div className="articleBox">

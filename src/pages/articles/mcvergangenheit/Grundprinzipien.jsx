@@ -8,7 +8,7 @@ function Grundprinzipien() {
             <h1 className="title">Grundprinzipien und wo sie herkommen</h1>
             <p className="subtitle">Eine geschichtliche Einführung ins Universum von McDonald’s</p>
             <br />
-            <img src={pic1} alt="" id="gp1"/>
+            <img src={pic1} alt="Abbildung, (McDonalds Past, o.D.)" id="gp1"/>
             <p>
             McDonalds hat heute feste Prinzipien, die in jedem 
             Restaurant umgesetzt werden müssen. Wie sonst wäre 
@@ -19,7 +19,6 @@ function Grundprinzipien() {
             sind sie entstanden?
             </p>
             <br />
-
 
             <div className="text-picright">
             <p>
@@ -32,9 +31,9 @@ function Grundprinzipien() {
             und mehr und mehr Leute konnten sich den Luxus leisten. Burger gehörten 
             aber in den ersten Jahren noch nicht zum Menü.
             </p>
+
             <img src={pic2} alt="" id="gp2"/>
             </div>
-
             <p>
             Die Konkurrenz wurde aber immer grösser und damit das Geschäft immer schwieriger weswegen sich die Gebrüder ein neues System ausdenken mussten, um weiterhin als Restaurant zu existieren. Die Lösung war, kurzgesagt, das System des Autoherstellers Ford: Fliessbandproduktion. Es sollte alles standardisiert werden, einfach umzusetzen für ungelehrte Mitarbeiter und etwas für jeden sein. 
             Somit kam der Burger und damit das modulare Menü von Burger, Pommes und einem alkoholfreien Getränk, bei dem die Zutaten mit dem vorher erklärten System vor- und zubereitet werden. Fast-Food war erstmals wirklich schnell und trotzdem gut. Gleichzeitig erlaubte es den Brüdern den Ertrag um einiges zu erhöhen, was ihnen später die Expansion ermöglichte, die das Unternehmen zu dem machte, was es heute ist.
@@ -52,6 +51,10 @@ function Grundprinzipien() {
             -	Enge Zusammenarbeit mit Lieferenden <br />
             </p>
             </strong>
+            <br />
+            <p>
+            Die Massenproduktion ist leider auch der Grund, weswegen noch heute viele Mitarbeiter sich aufgrund inhumaner Verhältnisse beschweren. So eintönig und langweilig, dass die Arbeit schlussendlich unwürdig ist. 
+            </p>
         </article>
     )
 }

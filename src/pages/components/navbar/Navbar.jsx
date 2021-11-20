@@ -42,7 +42,7 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link to="/MaturaArbeit/Marketing">
+                        <Link to="/MaturaArbeit/McZukunft">
                             McZukunft
                         </Link>
                     </li>

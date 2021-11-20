@@ -4,7 +4,7 @@ import Navbar from "./pages/components/navbar/Navbar";
 import Footer from "./pages/components/footer/Footer";
 import HomePage from "./pages/home/HomePage";
 import Geschichte from "./pages/geschichte/Geschichte";
-import Marketing from "./pages/marketing/Marketing";
+import McZukunft from "./pages/mczukunft/McZukunft";
 
 import {
   BrowserRouter as Router,
@@ -13,7 +13,7 @@ import {
   Redirect
 } from "react-router-dom";
 import McAktuell from './pages/mcaktuell/McAktuell';
-import Grundprinzipien from './pages/articles/grundprinzipien/Grundprinzipien';
+import Grundprinzipien from './pages/articles/mcvergangenheit/Grundprinzipien';
 import MaturaArbeit from './pages/maturaarbeit/MaturaArbeit';
 
 function App() {
@@ -34,8 +34,8 @@ function App() {
           <Route exact path="/MaturaArbeit/Geschichte">
             <Geschichte />
           </Route>
-          <Route exact path="/MaturaArbeit/Marketing">
-            <Marketing />
+          <Route exact path="/MaturaArbeit/McZukunft">
+            <McZukunft />
           </Route>
           <Route exact path="/MaturaArbeit/Grundprinzipien">
             <Grundprinzipien/>

@@ -3,13 +3,12 @@ import { useHistory } from "react-router-dom";
 
 import pic1 from "../../assets/mczukunft/werbepsychologie.png";
 import pic2 from "../../assets/mczukunft/werbepsychologie1.png";
-import cover from "../../assets/mczukunft/cover.png";
 import box1 from "../../assets/mczukunft/box1.png"
 import box2 from "../../assets/mczukunft/box2.png"
 import box3 from "../../assets/mczukunft/box3.png"
 import box4 from "../../assets/mczukunft/box4.png"
 
-export default function Marketing() {
+export default function McZunkuft() {
     let history = useHistory();
     return (
         <div className="mcMarketing">

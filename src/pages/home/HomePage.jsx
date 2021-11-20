@@ -1,4 +1,5 @@
 import React from 'react'
+import { useHistory } from "react-router-dom";
 
 import box1 from "../../assets/homepage/box1.png";
 import box2 from "../../assets/homepage/box2.png";
@@ -13,10 +14,16 @@ import CostumButton from "../components/button/Button";
             </div> 
 */
 export default function HomePage() {
+    let history = useHistory();
     return (
         <div className="homepage">
-            <div className="carusel">
-                <img src={hero} alt="" />
+           <div className="top">
+                <img src={hero} alt="" ></img>
+                <div className="textOverImg">
+                    <p className="heroTextTitle">Einsicht in unser Werbevideo der Zukunft</p>
+                    <p className="heroText">Ein Artikel zu unserem Werbevideo, was wir im Sinne von McDonald’s in 10 Jahren beschreiben</p>
+                    <button onClick={()=>{history.push("/MaturaArbeit/Grundprinzipien")}}><p>Nachlesen</p></button>
+                </div>
             </div>
             <div className="infoBoxes">
                 <div className="box">
@@ -26,7 +33,7 @@ export default function HomePage() {
                         <p className="boxtext">
                         Und wo sie herkommen
                         </p>
-                        <CostumButton text={"Nachlesen"} className="boxbtn" />
+                        <button onClick={()=>{history.push("/MaturaArbeit/Geschichte")}}><p>Nachlesen</p></button>
                     </div>
                 </div>
                 <div className="box">
@@ -36,7 +43,7 @@ export default function HomePage() {
                         <p className="boxtext" id="Klimawandel">
                         Was macht McDonald’s dagegen?
                         </p>
-                        <CostumButton text={"Nachlesen"} className="boxbtn" />
+                        <button onClick={()=>{history.push("/MaturaArbeit/McZukunft")}}><p>Nachlesen</p></button>
                     </div>
                 </div>
                 <div className="box">
@@ -46,7 +53,7 @@ export default function HomePage() {
                         <p className="boxtext">
                         Was steckt dahinter?
                         </p>
-                        <CostumButton text={"Nachlesen"} className="boxbtn" />
+                        <button onClick={()=>{history.push("/MaturaArbeit/McAktuell")}}><p className="nachlesen">Nachlesen</p></button>
                     </div>
                 </div>
             </div>
