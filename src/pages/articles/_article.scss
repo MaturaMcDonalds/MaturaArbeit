@@ -1,11 +1,11 @@
 .article {
-  margin-top: 2vh;
+  margin-top: 7vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 25vw;
-  margin-right: 25vw;
+  margin-left: 20vw;
+  margin-right: 20vw;
   p {
     line-height: 180%;
     font-family: "Open Sans", sans-serif;
@@ -22,7 +22,14 @@
   text-align: center;
   font-family: "Open Sans", sans-serif;
 }
-
+.paragraphovertitle {
+  font-weight: bold;
+  text-align: left;
+  align-self: flex-start;
+}
+.forcealign {
+  text-align: left;
+}
 .text-picright {
   margin-top: 2vh;
   margin-bottom: 2vh;
@@ -36,7 +43,7 @@
 
   img {
     margin: 1vh;
-    max-width: 50%;
+    max-width: 60%;
     height: auto;
     transform: translate(1vh, -1vh);
   }
