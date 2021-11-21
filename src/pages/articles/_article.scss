@@ -30,6 +30,14 @@
 .forcealign {
   text-align: left;
 }
+.boldbigger {
+  font-weight: bold;
+  font-size: large;
+  align-self: center;
+}
+.leftmargin {
+  margin-left: 2vw;
+}
 .text-picright {
   margin-top: 2vh;
   margin-bottom: 2vh;
@@ -46,6 +54,7 @@
     max-width: 60%;
     height: auto;
     transform: translate(1vh, -1vh);
+    border-radius: 10px;
   }
 }
 
@@ -68,10 +77,12 @@
   width: 70vw;
   height: 30vw;
 }
+
 .hero {
   margin: 1vh;
   max-width: 100%;
   width: 70vw;
+  border-radius: 10px;
 }
 
 #aufzaehlung {
@@ -98,6 +109,9 @@
       height: auto;
       transform: translateX(-1vw);
     }
+  }
+  .leftmargin {
+    margin-left: 0vw;
   }
   #video {
     margin: 1vh;

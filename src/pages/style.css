@@ -1323,6 +1323,18 @@ footer .linksbottom ul {
   text-align: left;
 }
 
+.boldbigger {
+  font-weight: bold;
+  font-size: large;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.leftmargin {
+  margin-left: 2vw;
+}
+
 .text-picright {
   margin-top: 2vh;
   margin-bottom: 2vh;
@@ -1347,6 +1359,7 @@ footer .linksbottom ul {
   height: auto;
   -webkit-transform: translate(1vh, -1vh);
           transform: translate(1vh, -1vh);
+  border-radius: 10px;
 }
 
 .subTitleImg {
@@ -1376,6 +1389,7 @@ footer .linksbottom ul {
   margin: 1vh;
   max-width: 100%;
   width: 70vw;
+  border-radius: 10px;
 }
 
 #aufzaehlung {
@@ -1410,6 +1424,9 @@ footer .linksbottom ul {
     height: auto;
     -webkit-transform: translateX(-1vw);
             transform: translateX(-1vw);
+  }
+  .leftmargin {
+    margin-left: 0vw;
   }
   #video {
     margin: 1vh;
