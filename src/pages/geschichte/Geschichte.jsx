@@ -16,7 +16,7 @@ const Geschichte = () => {
                 <div className="textOverImg">
                     <p className="heroTextTitle">Grundprinzipien und wo sie herkommen</p>
                     <p className="heroText">Eine geschichtliche Einführungs in das Universum des riesigen Fast-Food Konzerns</p>
-                    <button onClick={()=>{history.push("/MaturaArbeit/Grundprinzipien")}}><p>Mehr erfahren</p></button>
+                    <button onClick={()=>{history.push("/MaturaArbeit/McVergangenheit/Grundprinzipien")}}><p>Mehr erfahren</p></button>
                 </div>
             </div>
             <div className="articleBox">
@@ -27,7 +27,7 @@ const Geschichte = () => {
                     <p className="boxtext">
                     Der American Way of Life jetzt endlich national und international überall verfügbar
                     </p>
-                    <button><p>Nachlesen</p></button>
+                    <button onClick={()=>{history.push("/MaturaArbeit/McVergangenheit/McDonaldisierung")}}><p>Nachlesen</p></button>
                 </div>
                 <div className="right">
                     <img src={box1} alt="" />
@@ -41,7 +41,7 @@ const Geschichte = () => {
                     <p className="boxtext">
                     Das Problem, welches eine junge Zielgruppe mit sich bringt
                     </p>
-                    <button><p>Nachlesen</p></button>
+                    <button onClick={()=>{history.push("/MaturaArbeit/McVergangenheit/Manipulation")}}><p>Nachlesen</p></button>
                 </div>
                 <div className="right">
                 <img src={box2} alt="" />
@@ -55,7 +55,7 @@ const Geschichte = () => {
                     <p className="boxtext">
                     Wie ein Amateurfilm zu einem transparenteren und gesünderen McDonald’s verhalf
                     </p>
-                    <button><p>Nachlesen</p></button>
+                    <button onClick={()=>{history.push("/MaturaArbeit/McVergangenheit/SuperSize")}}><p>Nachlesen</p></button>
                 </div>
                 <div className="right">
                 <img src={box3} alt="" />

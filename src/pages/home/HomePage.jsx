@@ -22,7 +22,7 @@ export default function HomePage() {
                 <div className="textOverImg">
                     <p className="heroTextTitle">Einsicht in unser Werbevideo der Zukunft</p>
                     <p className="heroText">Ein Artikel zu unserem Werbevideo, was wir im Sinne von McDonald’s in 10 Jahren beschreiben</p>
-                    <button onClick={()=>{history.push("/MaturaArbeit/Grundprinzipien")}}><p>Nachlesen</p></button>
+                    <button onClick={()=>{history.push("")}}><p>Nachlesen</p></button>
                 </div>
             </div>
             <div className="infoBoxes">
@@ -33,7 +33,7 @@ export default function HomePage() {
                         <p className="boxtext">
                         Und wo sie herkommen
                         </p>
-                        <button onClick={()=>{history.push("/MaturaArbeit/Geschichte")}}><p>Nachlesen</p></button>
+                        <button onClick={()=>{history.push("")}}><p>Nachlesen</p></button>
                     </div>
                 </div>
                 <div className="box">
@@ -43,7 +43,7 @@ export default function HomePage() {
                         <p className="boxtext" id="Klimawandel">
                         Was macht McDonald’s dagegen?
                         </p>
-                        <button onClick={()=>{history.push("/MaturaArbeit/McZukunft")}}><p>Nachlesen</p></button>
+                        <button onClick={()=>{history.push("")}}><p>Nachlesen</p></button>
                     </div>
                 </div>
                 <div className="box">
@@ -53,7 +53,7 @@ export default function HomePage() {
                         <p className="boxtext">
                         Was steckt dahinter?
                         </p>
-                        <button onClick={()=>{history.push("/MaturaArbeit/McAktuell")}}><p className="nachlesen">Nachlesen</p></button>
+                        <button onClick={()=>{history.push("")}}><p className="nachlesen">Nachlesen</p></button>
                     </div>
                 </div>
             </div>

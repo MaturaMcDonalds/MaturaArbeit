@@ -37,7 +37,7 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link to="/MaturaArbeit/Geschichte">
+                        <Link to="/MaturaArbeit/McVergangenheit">
                             McVergangenheit
                         </Link>
                     </li>

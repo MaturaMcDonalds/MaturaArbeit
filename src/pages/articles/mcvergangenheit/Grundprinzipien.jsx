@@ -1,6 +1,6 @@
 import React from 'react'
-import pic1 from "../../../assets/img/grundprinzipien1.png";
-import pic2 from "../../../assets/img/grundprinzipien2.png";
+import pic1 from "../../../assets/articles/mcvergangenheit/3.png";
+import pic2 from "../../../assets/articles/mcvergangenheit/4.png";
 
 function Grundprinzipien() {
     return (
@@ -8,7 +8,7 @@ function Grundprinzipien() {
             <h1 className="title">Grundprinzipien und wo sie herkommen</h1>
             <p className="subtitle">Eine geschichtliche Einführung ins Universum von McDonald’s</p>
             <br />
-            <img src={pic1} alt="Abbildung, (McDonalds Past, o.D.)" id="gp1"/>
+            <img src={pic1} alt="Abbildung, (McDonalds Past, o.D.)" className="hero"/>
             <p>
             McDonalds hat heute feste Prinzipien, die in jedem 
             Restaurant umgesetzt werden müssen. Wie sonst wäre 

@@ -15,6 +15,9 @@ import {
 import McAktuell from './pages/mcaktuell/McAktuell';
 import Grundprinzipien from './pages/articles/mcvergangenheit/Grundprinzipien';
 import MaturaArbeit from './pages/maturaarbeit/MaturaArbeit';
+import Manipulation from './pages/articles/mcvergangenheit/Manipulation';
+import McDonaldisierung from './pages/articles/mcvergangenheit/McDonaldisierung';
+import SuperSizeMe from './pages/articles/mcvergangenheit/SuperSizeMe';
 
 function App() {
   return (
@@ -31,14 +34,23 @@ function App() {
           <Route exact path="/MaturaArbeit/Matura">
             <MaturaArbeit />
           </Route>
-          <Route exact path="/MaturaArbeit/Geschichte">
+          <Route exact path="/MaturaArbeit/McVergangenheit">
             <Geschichte />
           </Route>
           <Route exact path="/MaturaArbeit/McZukunft">
             <McZukunft />
           </Route>
-          <Route exact path="/MaturaArbeit/Grundprinzipien">
+          <Route exact path="/MaturaArbeit/McVergangenheit/Grundprinzipien">
             <Grundprinzipien/>
+          </Route>
+          <Route exact path="/MaturaArbeit/McVergangenheit/Manipulation">
+            <Manipulation/>
+          </Route>
+          <Route exact path="/MaturaArbeit/McVergangenheit/McDonaldisierung">
+            <McDonaldisierung/>
+          </Route>
+          <Route exact path="/MaturaArbeit/McVergangenheit/SuperSize">
+            <SuperSizeMe/>
           </Route>
           <Redirect to="/MaturaArbeit" />
         </Switch>

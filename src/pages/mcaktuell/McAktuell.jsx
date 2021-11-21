@@ -19,7 +19,7 @@ function McAktuell() {
                 <div className="textOverImg">
                     <p className="heroTextTitle">Klimawandel und Verpackungen</p>
                     <p className="heroText">Was McDonald’s gegen die Herausforderung tut, vor der die Menschheit steht</p>
-                    <button onClick={()=>{history.push("/MaturaArbeit/Grundprinzipien")}}><p>Mehr erfahren</p></button>
+                    <button onClick={()=>{history.push("")}}><p>Mehr erfahren</p></button>
                 </div>
             </div>
             <div className="articleBox">

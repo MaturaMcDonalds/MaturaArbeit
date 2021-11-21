@@ -15,7 +15,7 @@
 .title {
   font-size: 2.2rem;
   font-family: "Open Sans", sans-serif;
-  margin-bottom: 1vh;
+  margin-bottom: 0.5vh;
   text-align: center;
 }
 .subtitle {
@@ -50,6 +50,16 @@
   margin: 1vh;
   max-width: 100%;
 }
+#mp1 {
+  margin: 1vh;
+  max-width: 100%;
+  width: 70vw;
+}
+.hero {
+  margin: 1vh;
+  max-width: 100%;
+  width: 70vw;
+}
 
 #aufzaehlung {
   align-self: baseline;
@@ -83,7 +93,11 @@
     font-size: 2.2rem;
     font-family: "Open Sans", sans-serif;
     margin-bottom: 3vh;
-    text-align: center;
+    text-align: left;
+  }
+  .subtitle {
+    text-align: left;
+    font-family: "Open Sans", sans-serif;
   }
   .article {
     margin-top: 2vh;
@@ -91,8 +105,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 4vw;
-    margin-right: 4vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
     p {
       line-height: 180%;
       font-family: "Open Sans", sans-serif;
@@ -106,7 +120,11 @@
     font-size: 2.2rem;
     font-family: "Open Sans", sans-serif;
     margin-bottom: 3vh;
-    text-align: center;
+    text-align: left;
+  }
+  .subtitle {
+    text-align: left;
+    font-family: "Open Sans", sans-serif;
   }
   .article {
     margin-top: 2vh;
@@ -114,8 +132,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 7vw;
-    margin-right: 7vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
     p {
       line-height: 180%;
       font-family: "Open Sans", sans-serif;
@@ -129,7 +147,11 @@
     font-size: 2.2rem;
     font-family: "Open Sans", sans-serif;
     margin-bottom: 3vh;
-    text-align: center;
+    text-align: left;
+  }
+  .subtitle {
+    text-align: left;
+    font-family: "Open Sans", sans-serif;
   }
   .article {
     margin-top: 2vh;
@@ -137,8 +159,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 14vw;
-    margin-right: 14vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
     p {
       line-height: 180%;
       font-family: "Open Sans", sans-serif;
