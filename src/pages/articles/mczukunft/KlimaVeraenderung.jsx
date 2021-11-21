@@ -8,7 +8,7 @@ function KlimaVeraenderung() {
             <p className="subtitle">
             Ein mögliches Szenarien wie McDonald’s in Hinsicht aufs Klima ihr Marketing ändern könnten            </p>
             <br />
-            <img src={pic1} alt="Abbildung, (McDonalds Past, o.D.)" className="hero"/>
+            <img src={pic1} alt="" className="hero"/>
             <br />
             <p>
             Klimawandel ist eine der grössten Herausforderungen der Zukunft. Steigende Emissionen, Temperaturen und mehr Abfall bringen Auswirkungen mit sich, welche immer mehr Leute dazu bringt, sich für das Klima einzusetzen und ihren Lebensstil anzupassen. Dies wirkt sich auch auf den Markt, und somit auch stark auf McDonald’s aus (UN, 2017)

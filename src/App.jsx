@@ -36,6 +36,12 @@ import Gesundheitsexpansion from './pages/articles/mczukunft/Gesundheitsexpansio
 import Individualisierung from './pages/articles/mczukunft/Individualisierung';
 import Werbevideo from './pages/articles/mczukunft/Werbevideo';
 
+import HeuteLos from "./pages/articles/mcaktuell/HeuteLos";
+import KlimawandelAbfall from "./pages/articles/mcaktuell/KlimawandelAbfall";
+import UnsereAbreit from "./pages/articles/mcaktuell/UnsereAbreit";
+import VegetarischesEssen from "./pages/articles/mcaktuell/VegetarischesEssen";
+import Werbepsychologie from "./pages/articles/mcaktuell/Werbepsychologie";
+
 function App() {
   return (
     <Router>
@@ -90,6 +96,24 @@ function App() {
           </Route>
           <Route exact path="/MaturaArbeit/McZukunft/Werbevideo">
             <Werbevideo />
+          </Route>
+          <Route exact path="/MaturaArbeit/McAktuell">
+            <McAktuell />
+          </Route>
+          <Route exact path="/MaturaArbeit/McAktuell/HeuteLos">
+            <HeuteLos />
+          </Route>
+          <Route exact path="/MaturaArbeit/McAktuell/KlimawandelAbfall">
+            <KlimawandelAbfall />
+          </Route>
+          <Route exact path="/MaturaArbeit/McAktuell/UnsereAbreit">
+            <UnsereAbreit />
+          </Route>
+          <Route exact path="/MaturaArbeit/McAktuell/VegetarischesEssen">
+            <VegetarischesEssen />
+          </Route>
+          <Route exact path="/MaturaArbeit/McAktuell/Werbepsychologie">
+            <Werbepsychologie />
           </Route>
           <Redirect to="/MaturaArbeit" />
         </Switch>

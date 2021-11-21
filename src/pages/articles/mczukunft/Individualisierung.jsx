@@ -10,7 +10,7 @@ function Individualisierung() {
             2 Szenarien wie sich die Individualiserung auf McDonald’s auswirken könnte
             </p>
             <br />
-            <img src={pic1} alt="Abbildung, (McDonalds Past, o.D.)" className="hero"/>
+            <img src={pic1} alt="" className="hero"/>
             <br />
             <p>
             Der Megatrend der Individualisierung beinhaltet den geschichtlichen Prozess der Abwendung eines Individuums vom Pluralismus, also von der Fremdbestimmung zur Selbstbestimmung. Die individuelle Leistung wird hier immer weiter in den Mittelpunkt gestellt. Die Individualisierung bedeutet auch die Märkte bis hin zu persönlichen Produkten auszudifferenzieren. Hiermit will man die einzelnen Ansprüche der Kunden wahrnehmen, um so eine allgemeine Kundenzufriedenheit herzustellen. Wie wird McDonald’s damit umgehen, dass die Kundschaft immer individuellere Ansprüche an sie hat? Wie wir in den vorherigen Kapiteln erfahren haben, spricht McDonald’s die Menschenmasse an. Doch wie wird der Fast-Food-Gigant damit umgehen, wenn es diese Masse nicht mehr gibt (Individualisierung, 2018)?

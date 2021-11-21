@@ -2,11 +2,10 @@ import React from 'react';
 import { useHistory } from "react-router-dom";
 
 import hero from "../../assets/mcaktuell/hero.png";
-import box1 from "../../assets/mcaktuell/box1.png";
 import box2 from "../../assets/mcaktuell/box2.png";
 import box3 from "../../assets/mcaktuell/box3.png";
 import box4 from "../../assets/mcaktuell/box4.png";
-import box1new from "../../assets/mcaktuell/box1new.png";
+import box1 from "../../assets/mcaktuell/box1new.png";
 
 
 function McAktuell() {
@@ -19,7 +18,7 @@ function McAktuell() {
                 <div className="textOverImg">
                     <p className="heroTextTitle">Klimawandel und Verpackungen</p>
                     <p className="heroText">Was McDonald’s gegen die Herausforderung tut, vor der die Menschheit steht</p>
-                    <button onClick={()=>{history.push("")}}><p>Mehr erfahren</p></button>
+                    <button onClick={()=>{history.push("/MaturaArbeit/McAktuell/KlimawandelAbfall")}}><p>Mehr erfahren</p></button>
                 </div>
             </div>
             <div className="articleBox">
@@ -30,10 +29,10 @@ function McAktuell() {
                     <p className="boxtext">
                     Eine Erläuterung was dahinter steckt anhand von Modellen, Theorien und Fallbeispielen
                     </p>
-                    <button><p>Nachlesen</p></button>
+                    <button onClick={()=>{history.push("/MaturaArbeit/McAktuell/Werbepsychologie")}}><p>Nachlesen</p></button>
                 </div>
                 <div className="right">
-                    <img src={box1new} alt="" />
+                    <img src={box1} alt="" />
                 </div>
             </div>
             <div className="articleBox">
@@ -44,7 +43,7 @@ function McAktuell() {
                     <p className="boxtext">
                     Was gibt’s überhaupt ausser Pommes?
                     </p>
-                    <button><p>Nachlesen</p></button>
+                    <button onClick={()=>{history.push("/MaturaArbeit/McAktuell/VegetarischesEssen")}}><p>Nachlesen</p></button>
                 </div>
                 <div className="right">
                 <img src={box2} alt="" />
@@ -58,7 +57,7 @@ function McAktuell() {
                     <p className="boxtext">
                     Eine Auswahl an Ereignissen die das McMarketing der letzten Monate prägnten
                     </p>
-                    <button><p>Nachlesen</p></button>
+                    <button onClick={()=>{history.push("/MaturaArbeit/McAktuell/UnsereAbreit")}}><p>Nachlesen</p></button>
                 </div>
                 <div className="right">
                 <img src={box3} alt="" />
@@ -72,7 +71,7 @@ function McAktuell() {
                     <p className="boxtext">
                     Ein Einblick in die Marketingprinzipien von Heute
                     </p>
-                    <button><p>Nachlesen</p></button>
+                    <button onClick={()=>{history.push("/MaturaArbeit/McAktuell/HeuteLos")}}><p>Nachlesen</p></button>
                 </div>
                 <div className="right">
                 <img src={box4} alt="" />

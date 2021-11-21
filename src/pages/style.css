@@ -1365,6 +1365,13 @@ footer .linksbottom ul {
   width: 70vw;
 }
 
+#video {
+  margin: 1vh;
+  max-width: 100%;
+  width: 70vw;
+  height: 30vw;
+}
+
 .hero {
   margin: 1vh;
   max-width: 100%;
@@ -1403,6 +1410,12 @@ footer .linksbottom ul {
     height: auto;
     -webkit-transform: translateX(-1vw);
             transform: translateX(-1vw);
+  }
+  #video {
+    margin: 1vh;
+    max-width: 100%;
+    width: 80vw;
+    height: 30vw;
   }
 }
 
@@ -1475,6 +1488,12 @@ footer .linksbottom ul {
     line-height: 180%;
     font-family: "Open Sans", sans-serif;
     text-align: start;
+  }
+  #video {
+    margin: 1vh;
+    max-width: 100%;
+    width: 80vw;
+    height: 45vw;
   }
 }
 

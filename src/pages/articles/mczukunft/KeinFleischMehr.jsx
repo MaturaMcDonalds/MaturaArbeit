@@ -10,7 +10,7 @@ function KeinFleischMehr() {
             2  mögliche Szenarien zu Fleischersatz und Vegetarismus/Veganismus
             </p>
             <br />
-            <img src={pic1} alt="Abbildung, (McDonalds Past, o.D.)" className="hero"/>
+            <img src={pic1} alt="" className="hero"/>
             <br />
             <p className="paragraphovertitle">
             Was wenn niemand mehr Fleisch essen möchte?

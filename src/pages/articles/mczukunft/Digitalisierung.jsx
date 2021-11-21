@@ -10,7 +10,7 @@ function Digitalisierung() {
             Zwei  Szenarien wie sich die Digitaliserung aufs McMarketing auswirken könnte
             </p>
             <br />
-            <img src={pic1} alt="Abbildung, (McDonalds Past, o.D.)" className="hero"/>
+            <img src={pic1} alt="" className="hero"/>
             <br />
             <p>
             Dieser Megatrend bringt etliche Möglichkeiten mit sich. Unter Digitalisierung versteht man einen Prozess, in welchem man Informationen und Kommunikation in eine digitale Form umwandelt. Ebenfalls kann darunter die digitale Änderung von Gebrauchsgegenständen, Maschinen und weiteres verstanden werden. Man versteht hierbei also eine massive Transformation der Gesellschaft im Zusammenhang mit der Digitalisierung. Für die Werbung von McDonald’s lässt sich hervorzuheben, dass der Umschwung von den analogen Medien in Richtung digitalisierter Kanäle grosse Änderungen mit sich bringen wird. Wir gehen davon aus, dass McDonald’s sich diesen neuen Möglichkeiten intensiv zuwenden wird, da sie mit exponentiellen Umsatzsteigerungen verbunden sein könnte. Ihre Leistung zu steigern anhand neuen, effizienteren Mitteln würde für McDonald’s nicht nur in der Werbung neue Möglichkeiten eröffnen. Beispielsweise auch die potenzielle Ersetzung der standardisierten Mitarbeiter durch effizientere Maschinen (Digitalisierung, 2018).   

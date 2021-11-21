@@ -5,7 +5,7 @@ import pic2 from "../../../assets/articles/mcvergangenheit/6.png";
 function McDonaldisierung() {
     return (
         <article className="article">
-            <img src={pic1} alt="Abbildung, (McDonalds Past, o.D.)" className="hero"/>
+            <img src={pic1} alt="" className="hero"/>
             <br />
             <h1 className="title">Die McDonaldisierung der Welt</h1>
             <p className="subtitle">

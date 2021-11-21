@@ -62,6 +62,12 @@
   max-width: 100%;
   width: 70vw;
 }
+#video {
+  margin: 1vh;
+  max-width: 100%;
+  width: 70vw;
+  height: 30vw;
+}
 .hero {
   margin: 1vh;
   max-width: 100%;
@@ -92,6 +98,12 @@
       height: auto;
       transform: translateX(-1vw);
     }
+  }
+  #video {
+    margin: 1vh;
+    max-width: 100%;
+    width: 80vw;
+    height: 30vw;
   }
 }
 
@@ -146,6 +158,12 @@
       font-family: "Open Sans", sans-serif;
       text-align: start;
     }
+  }
+  #video {
+    margin: 1vh;
+    max-width: 100%;
+    width: 80vw;
+    height: 45vw;
   }
 }
 

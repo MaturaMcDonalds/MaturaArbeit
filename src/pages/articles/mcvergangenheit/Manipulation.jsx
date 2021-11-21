@@ -11,7 +11,7 @@ function Manipulation() {
 Die Kontroversen welche die junge Zielgruppe mit sich bringt
 </p>
             <br />
-            <img src={pic1} alt="Abbildung, (McDonalds Past, o.D.)" id="mp1"/>
+            <img src={pic1} alt="" id="mp1"/>
             <p>
             
 Eine der wichtigsten Zielgruppen von McDonald’s sind Kinder und junge Teenager, wie in unserem Artikel zur Zielgruppe ebenfalls erwähnt. Es geht in diesem Artikel auch nicht konkret um die Zielgruppe und die Psychologie dahinter, sondern um die Kontroversen, die damit kamen. 

@@ -11,7 +11,7 @@ function Gesundheitsexpansion() {
             2 Szenarien wie sich die Gesundheitsexpansion auf McDonald’s auswirken könnte
             </p>
             <br />
-            <img src={pic1} alt="Abbildung, (McDonalds Past, o.D.)" className="hero"/>
+            <img src={pic1} alt="" className="hero"/>
             <br />
             <p>
             Die Gesellschaft wird immer dicker. Trotzdem ist einer der grössten Megatrends Gesundheitsexpansion, wie passt das zusammen? Erst muss geklärt werden, was Gesundheitsexpansion bedeutet. Dies bezieht sich zum einen auf die immer besser werdende Medizin, beziehungsweise der steigende Wohlstand, der letzteres zugänglich macht. Zum anderen aber, ist aufgrund der vorhin erwähnten, immer dicker werdenden Gesellschaft, die persönliche Gesundheit in ein populäreres Licht gerückt. Mehr Leute kümmern sich um ihre Gesundheit, weil sie mehr Zeit, finanzielle Mittel und vor allem auch Wissen diesbezüglich haben. (Swissfuture, 2018)

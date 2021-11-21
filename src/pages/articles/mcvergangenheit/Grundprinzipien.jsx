@@ -8,7 +8,7 @@ function Grundprinzipien() {
             <h1 className="title">Grundprinzipien und wo sie herkommen</h1>
             <p className="subtitle">Eine geschichtliche Einführung ins Universum von McDonald’s</p>
             <br />
-            <img src={pic1} alt="Abbildung, (McDonalds Past, o.D.)" className="hero"/>
+            <img src={pic1} alt="" className="hero"/>
             <p>
             McDonalds hat heute feste Prinzipien, die in jedem 
             Restaurant umgesetzt werden müssen. Wie sonst wäre 

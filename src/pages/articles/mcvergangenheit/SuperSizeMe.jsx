@@ -4,7 +4,7 @@ import pic1 from "../../../assets/articles/mcvergangenheit/7.png";
 function SuperSizeMe() {
     return (
         <article className="article">
-            <img src={pic1} alt="Abbildung, (McDonalds Past, o.D.)" className="hero"/>
+            <img src={pic1} alt="" className="hero"/>
             <br />
             <h1 className="title">Super-Size-Me und dessen Auswirkungen</h1>
             <p className="subtitle">
