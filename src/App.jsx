@@ -42,6 +42,10 @@ import UnsereAbreit from "./pages/articles/mcaktuell/UnsereAbreit";
 import VegetarischesEssen from "./pages/articles/mcaktuell/VegetarischesEssen";
 import Werbepsychologie from "./pages/articles/mcaktuell/Werbepsychologie";
 
+import Interview from "./pages/articles/maturaarbeit/Interview";
+import Abstract from "./pages/articles/maturaarbeit/Abstract";
+import Abschliessend from "./pages/articles/maturaarbeit/Abschliessend";
+
 function App() {
   return (
     <Router>
@@ -114,6 +118,15 @@ function App() {
           </Route>
           <Route exact path="/MaturaArbeit/McAktuell/Werbepsychologie">
             <Werbepsychologie />
+          </Route>
+          <Route exact path="/MaturaArbeit/Matura/Interview">
+            <Interview />
+          </Route>
+          <Route exact path="/MaturaArbeit/Matura/Abstract">
+            <Abstract />
+          </Route>
+          <Route exact path="/MaturaArbeit/Matura/Abschliessend">
+            <Abschliessend />
           </Route>
           <Redirect to="/MaturaArbeit" />
         </Switch>

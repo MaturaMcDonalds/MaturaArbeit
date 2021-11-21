@@ -1,4 +1,5 @@
 import React from 'react'
+import { useHistory } from 'react-router'
 
 import interview from "../../assets/maturaarbeit/interview.png"
 
@@ -9,6 +10,7 @@ import interview from "../../assets/maturaarbeit/interview.png"
             </div> 
 */
 export default function MaturaArbeit() {
+    let history = useHistory();
     return (
         <div className="matura">
             <h1 className="maturaTitle">Unsere Maturaarbeit</h1>
@@ -20,7 +22,7 @@ export default function MaturaArbeit() {
                     <p className="boxtext">
                     Ein kurze Erklärung, was das Ganze überhaupt soll
                     </p>
-                    <button><p>Nachlesen</p></button>
+                    <button onClick={()=>{history.push("/MaturaArbeit/Matura/Abstract")}}><p>Nachlesen</p></button>
                 </div>
             </div>
             <div className="articleBox">
@@ -31,7 +33,7 @@ export default function MaturaArbeit() {
                     <p className="boxtext">
                     Interessante Persönlichkeiten
                     </p>
-                    <button><p>Nachlesen</p></button>
+                    <button onClick={()=>{history.push("/MaturaArbeit/Matura/Interview")}}><p>Nachlesen</p></button>
                 </div>
                 <div className="right">
                 <img src={interview} alt="" />
@@ -45,7 +47,7 @@ export default function MaturaArbeit() {
                     <p className="boxtext">
                     Fazit und Ausblick 
                     </p>
-                    <button><p>Nachlesen</p></button>
+                    <button onClick={()=>{history.push("/MaturaArbeit/Matura/Abschliessend")}}><p>Nachlesen</p></button>
                 </div>
             </div>
         </div>
