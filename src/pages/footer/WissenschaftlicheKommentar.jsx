@@ -6,7 +6,7 @@ export default function WissenschaftlicheKommentar() {
             <h1 className="title">Wissenschaftlicher Kommentar</h1>
             <br />
             <br />
-            <a target="_blank" href="https://kantonsschulebaden-my.sharepoint.com/personal/tim_scholl_students_ksba_ch/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Ftim%5Fscholl%5Fstudents%5Fksba%5Fch%2FDocuments%2FWissenschaftlicher%20Kommentar%2Epdf&parent=%2Fpersonal%2Ftim%5Fscholl%5Fstudents%5Fksba%5Fch%2FDocuments">Nachlesen</a>
+            <a target="_blank" href="https://drive.google.com/file/d/1Wm_ZktOxjaP8THP8UY5Q7mOHaI03r4Xc/view?usp=sharing">Nachlesen</a>
         </article>
     )
 }
