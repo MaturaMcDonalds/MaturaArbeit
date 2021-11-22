@@ -66,7 +66,7 @@ function McAktuell() {
             <div className="articleBoxMa">
                 <div className="leftMa">
                     <h1>
-                    Was ist den Heute los?
+                    Was ist denn heute los?
                     </h1>
                     <p className="boxTextMa">
                     Ein Einblick in die Marketingprinzipien von Heute
