@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/MaturaArbeit/static/css/main.236651bd.chunk.css",
-    "main.js": "/MaturaArbeit/static/js/main.8405cba6.chunk.js",
-    "main.js.map": "/MaturaArbeit/static/js/main.8405cba6.chunk.js.map",
+    "main.css": "/MaturaArbeit/static/css/main.8656f3ad.chunk.css",
+    "main.js": "/MaturaArbeit/static/js/main.8c495100.chunk.js",
+    "main.js.map": "/MaturaArbeit/static/js/main.8c495100.chunk.js.map",
     "runtime-main.js": "/MaturaArbeit/static/js/runtime-main.c7c2bb37.js",
     "runtime-main.js.map": "/MaturaArbeit/static/js/runtime-main.c7c2bb37.js.map",
-    "static/js/2.beab7d3a.chunk.js": "/MaturaArbeit/static/js/2.beab7d3a.chunk.js",
-    "static/js/2.beab7d3a.chunk.js.map": "/MaturaArbeit/static/js/2.beab7d3a.chunk.js.map",
+    "static/js/2.fceeab35.chunk.js": "/MaturaArbeit/static/js/2.fceeab35.chunk.js",
+    "static/js/2.fceeab35.chunk.js.map": "/MaturaArbeit/static/js/2.fceeab35.chunk.js.map",
     "index.html": "/MaturaArbeit/index.html",
-    "static/css/main.236651bd.chunk.css.map": "/MaturaArbeit/static/css/main.236651bd.chunk.css.map",
-    "static/js/2.beab7d3a.chunk.js.LICENSE.txt": "/MaturaArbeit/static/js/2.beab7d3a.chunk.js.LICENSE.txt",
+    "static/css/main.8656f3ad.chunk.css.map": "/MaturaArbeit/static/css/main.8656f3ad.chunk.css.map",
+    "static/js/2.fceeab35.chunk.js.LICENSE.txt": "/MaturaArbeit/static/js/2.fceeab35.chunk.js.LICENSE.txt",
     "static/media/1.14440f33.png": "/MaturaArbeit/static/media/1.14440f33.png",
     "static/media/1.6d074818.png": "/MaturaArbeit/static/media/1.6d074818.png",
     "static/media/1.e25ae81c.png": "/MaturaArbeit/static/media/1.e25ae81c.png",
@@ -60,8 +60,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c7c2bb37.js",
-    "static/js/2.beab7d3a.chunk.js",
-    "static/css/main.236651bd.chunk.css",
-    "static/js/main.8405cba6.chunk.js"
+    "static/js/2.fceeab35.chunk.js",
+    "static/css/main.8656f3ad.chunk.css",
+    "static/js/main.8c495100.chunk.js"
   ]
 }
