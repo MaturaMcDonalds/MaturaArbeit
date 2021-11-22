@@ -11,6 +11,12 @@
     font-family: "Open Sans", sans-serif;
     text-align: start;
   }
+  strong {
+    font-size: 20px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
   a {
     font-size: xx-large;
     font-weight: 800;

@@ -1,4 +1,4 @@
-footer {
+.footer {
   width: 70%;
   margin-left: 15%;
   margin-right: 15%;
@@ -6,26 +6,28 @@ footer {
   background-color: rgb(255, 255, 255);
   border-bottom: 1.5px solid rgba(185, 185, 185, 0.527);
   margin-bottom: 5vh;
+  padding-left: 0vw;
+  padding-right: 3vw;
   display: flex;
+  flex-wrap: wrap;
   font-family: "Open Sans", sans-serif;
-  .linksbottom {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-    font-family: "Open Sans", sans-serif;
-    ul {
-      display: flex;
-      width: auto;
-      font-family: "Open Sans", sans-serif;
-      li {
-        max-width: 20%;
-        .transparent {
-          color: rgba(221, 221, 221, 0.411);
-        }
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  div {
+    p {
+      &:hover {
+        cursor: pointer;
       }
     }
   }
+}
+.grey {
+  color: rgba(0, 0, 0, 0.5);
+  &:hover {
+    cursor: pointer;
+  }
+}
+.gone {
+  opacity: 0;
 }

@@ -23,7 +23,7 @@
   -webkit-box-shadow: 2px 2px 20px -10px rgba(0, 0, 0, 0.5);
   box-shadow: 2px 2px 20px -10px rgba(0, 0, 0, 0.5);
   grid-template-columns: 20% 20% 20% 30% 10%;
-  grid-template-rows: 10% 60% 30% 20%;
+  grid-template-rows: 10% 55% 30% 20%;
   img {
     grid-column-start: 1;
     grid-column-end: 6;
@@ -32,6 +32,9 @@
     border-radius: 5px;
     max-width: 100%;
     width: 70vw;
+  }
+  .heroText {
+    max-width: 100%;
   }
 }
 .textOverImg {

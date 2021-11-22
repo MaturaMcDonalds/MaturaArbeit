@@ -28,7 +28,7 @@
           box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
-footer {
+.footer {
   width: 70%;
   margin-left: 15%;
   margin-right: 15%;
@@ -36,42 +36,40 @@ footer {
   background-color: white;
   border-bottom: 1.5px solid rgba(185, 185, 185, 0.527);
   margin-bottom: 5vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-family: "Open Sans", sans-serif;
-}
-
-footer .linksbottom {
-  width: 100%;
+  padding-left: 0vw;
+  padding-right: 3vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  font-family: "Open Sans", sans-serif;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  list-style: none;
-  font-family: "Open Sans", sans-serif;
 }
 
-footer .linksbottom ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: auto;
-  font-family: "Open Sans", sans-serif;
+.footer div p:hover {
+  cursor: pointer;
 }
 
-footer .linksbottom ul li {
-  max-width: 20%;
+.grey {
+  color: rgba(0, 0, 0, 0.5);
 }
 
-footer .linksbottom ul li .transparent {
-  color: rgba(221, 221, 221, 0.411);
+.grey:hover {
+  cursor: pointer;
+}
+
+.gone {
+  opacity: 0;
 }
 
 .navbar {
@@ -145,7 +143,7 @@ footer .linksbottom ul li .transparent {
   display: none;
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1320px) {
   .navbar {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -171,15 +169,18 @@ footer .linksbottom ul li .transparent {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    z-index: 2;
+    z-index: 1000;
     cursor: pointer;
     margin-right: 5%;
   }
   .navbar .links {
+    -webkit-transform: translateX(-15%);
+            transform: translateX(-15%);
     position: fixed;
+    z-index: 500;
     background-color: white;
-    width: 100%;
-    height: 100vh;
+    width: 110vw;
+    min-height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -290,8 +291,8 @@ footer .linksbottom ul li .transparent {
   box-shadow: 2px 2px 20px -10px rgba(0, 0, 0, 0.5);
   -ms-grid-columns: 20% 20% 20% 30% 10%;
       grid-template-columns: 20% 20% 20% 30% 10%;
-  -ms-grid-rows: 10% 60% 30% 20%;
-      grid-template-rows: 10% 60% 30% 20%;
+  -ms-grid-rows: 10% 55% 30% 20%;
+      grid-template-rows: 10% 55% 30% 20%;
 }
 
 .top img {
@@ -304,6 +305,10 @@ footer .linksbottom ul li .transparent {
   border-radius: 5px;
   max-width: 100%;
   width: 70vw;
+}
+
+.top .heroText {
+  max-width: 100%;
 }
 
 .textOverImg {
@@ -1101,43 +1106,24 @@ footer .linksbottom ul li .transparent {
   }
 }
 
-.mcMarketing {
-  margin-top: 5vh;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.mcMarketing .mcaktuellTitle {
+.mczukunfTitle {
   margin-bottom: 3vh;
   font-weight: 500;
   font-size: 50px;
 }
 
-.mcMarketing .top {
+.topMcz {
   margin-bottom: 10vh;
   overflow: hidden;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 10% 40% 20% 20% 10%;
       grid-template-columns: 10% 40% 20% 20% 10%;
-  -ms-grid-rows: 10% 50% 30%;
-      grid-template-rows: 10% 50% 30%;
+  -ms-grid-rows: 10% 60% 10% 20%;
+      grid-template-rows: 10% 60% 10% 20%;
 }
 
-.mcMarketing .top img {
+.topMcz img {
   -ms-grid-column: 1;
       grid-column-start: 1;
   grid-column-end: 6;
@@ -1149,7 +1135,7 @@ footer .linksbottom ul li .transparent {
   width: 60vw;
 }
 
-.mcMarketing .top .textOverImg {
+.textOverImgMcz {
   -ms-grid-column: 2;
       grid-column-start: 2;
   grid-column-end: 3;
@@ -1175,21 +1161,11 @@ footer .linksbottom ul li .transparent {
   background-color: white;
 }
 
-.mcMarketing .top .textOverImg * {
+.textOverImgMcz * {
   margin: 2px;
 }
 
-.mcMarketing .top .textOverImg .heroTextTitle {
-  font-weight: 600;
-  font-size: 25px;
-}
-
-.mcMarketing .top .textOverImg .heroText {
-  font-size: small;
-  max-width: 70%;
-}
-
-.mcMarketing .top .textOverImg button {
+.textOverImgMcz button {
   margin-top: 1vh;
   background-color: #298c3e;
   border: 0;
@@ -1197,18 +1173,38 @@ footer .linksbottom ul li .transparent {
   border-radius: 5px;
 }
 
-.mcMarketing .top .textOverImg button p {
+.textOverImgMcz button p {
   font-weight: 500;
   font-size: large;
 }
 
-.mcMarketing .top .textOverImg button:hover {
+.textOverImgMcz button:hover {
   cursor: pointer;
   -webkit-box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
-.mcMarketing .emptyBox {
+.heroTextTitleMcZ {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.heroTextTitleMcZE {
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.heroTextMcZ {
+  font-size: small;
+  max-width: 70%;
+}
+
+.heroTextMcZE {
+  font-size: large;
+  max-width: 70%;
+}
+
+.emptyBoxMcZ {
   width: 75vw;
   background-color: #fcfcfc;
   -webkit-box-shadow: 2px 2px 20px -10px rgba(0, 0, 0, 0.5);
@@ -1232,23 +1228,11 @@ footer .linksbottom ul li .transparent {
   padding: 3%;
 }
 
-.mcMarketing .emptyBox * {
+.emptyBoxMcZ * {
   margin: 2px;
 }
 
-.mcMarketing .emptyBox .heroTextTitle {
-  font-weight: 600;
-  font-size: 40px;
-}
-
-.mcMarketing .emptyBox .heroText {
-  margin-top: 2vh;
-  font-size: large;
-  max-width: 40%;
-  word-break: normal;
-}
-
-.mcMarketing .emptyBox button {
+.emptyBoxMcZ button {
   margin-top: 3vh;
   background-color: #298c3e;
   border: 0;
@@ -1256,18 +1240,50 @@ footer .linksbottom ul li .transparent {
   border-radius: 5px;
 }
 
-.mcMarketing .emptyBox button p {
+.emptyBoxMcZ button p {
   font-weight: 500;
   font-size: large;
 }
 
-.mcMarketing .emptyBox button:hover {
+.emptyBoxMcZ button:hover {
   cursor: pointer;
   -webkit-box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
-.mcMarketing .bottom {
+.heroTextTitleMcZ {
+  font-weight: 600;
+  font-size: x-large;
+}
+
+.heroTextMcZ {
+  margin-top: 2vh;
+  font-size: medium;
+  max-width: 80%;
+  word-break: normal;
+}
+
+.mcMarketing {
+  margin-top: 5vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10vh;
+}
+
+.bottomMcZ {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1281,7 +1297,7 @@ footer .linksbottom ul li .transparent {
   width: 75%;
 }
 
-.mcMarketing .bottom button {
+.bottomMcZ button {
   margin-top: 1vh;
   background-color: #298c3e;
   border: 0;
@@ -1289,18 +1305,18 @@ footer .linksbottom ul li .transparent {
   border-radius: 5px;
 }
 
-.mcMarketing .bottom button p {
+.bottomMcZ button p {
   font-weight: 500;
   font-size: large;
 }
 
-.mcMarketing .bottom button:hover {
+.bottomMcZ button:hover {
   cursor: pointer;
   -webkit-box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
-.mcMarketing .bottom .topboxes {
+.topboxesMcZ {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1312,7 +1328,7 @@ footer .linksbottom ul li .transparent {
       justify-content: space-around;
 }
 
-.mcMarketing .bottom .bottomboxes {
+.bottomboxesMcz {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1325,7 +1341,7 @@ footer .linksbottom ul li .transparent {
           justify-content: space-between;
 }
 
-.mcMarketing .bottom .box {
+.boxMcz {
   width: 45%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1343,26 +1359,236 @@ footer .linksbottom ul li .transparent {
           align-items: center;
 }
 
-.mcMarketing .bottom .box img {
+.boxMcz img {
   border-radius: 10px;
 }
 
-.mcMarketing .bottom .box .smallboxtitle {
+.smallboxtitle {
   font-size: 30px;
   font-weight: 550;
   margin-bottom: 2vh;
 }
 
-.mcMarketing .bottom .box .smallboxtext {
+.smallboxtext {
   margin-top: 3vh;
   max-width: 80%;
   text-align: center;
 }
 
-@media only screen and (max-width: 1475px) {
-  .bottom {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+@media only screen and (max-width: 1356px) {
+  .emptyBoxMcZ {
+    width: 100vw;
+    background-color: #fcfcfc;
+    -webkit-box-shadow: 2px 2px 20px -10px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 20px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    margin-bottom: 5vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: baseline;
+        -ms-flex-pack: baseline;
+            justify-content: baseline;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    padding: 3%;
+  }
+  .emptyBoxMcZ * {
+    margin: 2px;
+  }
+  .emptyBoxMcZ button {
+    margin-top: 3vh;
+    background-color: #298c3e;
+    border: 0;
+    padding: 1vh;
+    border-radius: 5px;
+  }
+  .emptyBoxMcZ button p {
+    font-weight: 500;
+    font-size: large;
+  }
+  .emptyBoxMcZ button:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.2);
+  }
+  .topMcz {
+    margin-bottom: 10vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-shadow: 2px 2px 20px -10px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 20px -10px rgba(0, 0, 0, 0.5);
+  }
+  .topMcz img {
+    border-radius: 5px;
+    width: 100%;
+  }
+  .textOverImgMcz {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    padding: 5.5%;
+    text-align: left;
+    background-color: white;
+  }
+  .textOverImgMcz * {
+    margin: 2px;
+  }
+  .textOverImgMcz button {
+    margin-top: 1vh;
+    background-color: #298c3e;
+    border: 0;
+    padding: 1vh;
+    border-radius: 5px;
+  }
+  .textOverImgMcz button p {
+    font-weight: 500;
+    font-size: large;
+  }
+  .textOverImgMcz button:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media only screen and (max-width: 1496px) {
+  .bottomMcZ {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .bottomMcZ button {
+    margin-top: 1vh;
+    background-color: #298c3e;
+    border: 0;
+    padding: 1vh;
+    border-radius: 5px;
+  }
+  .bottomMcZ button p {
+    font-weight: 500;
+    font-size: large;
+  }
+  .bottomMcZ button:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.2);
+  }
+  .topboxesMcZ {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .bottomboxesMcz {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .boxMcz {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 5vh;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .boxMcz img {
+    width: 60%;
+    border-radius: 10px;
+  }
+  .smallboxtext {
+    margin-top: 3vh;
+    max-width: 50%;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .boxMcz {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 5vh;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .boxMcz img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .smallboxtext {
+    margin-top: 3vh;
+    max-width: 80%;
+    text-align: center;
   }
 }
 
@@ -1704,6 +1930,14 @@ footer .linksbottom ul li .transparent {
   line-height: 180%;
   font-family: "Open Sans", sans-serif;
   text-align: start;
+}
+
+.article strong {
+  font-size: 20px;
+}
+
+.article strong:hover {
+  cursor: pointer;
 }
 
 .article a {

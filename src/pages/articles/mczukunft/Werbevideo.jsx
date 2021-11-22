@@ -3,6 +3,7 @@ import React,{useState} from 'react'
 function Werbevideo() {
     const [allowed,setAllowed]= useState(false);
     const [input, setInput] = useState("");
+    const [second,setSecond] = useState("01")
     const changeInput = (e)=>{
         setInput(e.target.value);
         console.log(input)
@@ -14,6 +15,34 @@ function Werbevideo() {
             setInput("");
         }
     }
+    const startAt15 = () =>{
+        window.scrollTo(0, 0);
+        setSecond("15")
+    }
+    const startAt25 = () =>{
+        window.scrollTo(0, 0);
+        setSecond("25")
+    }
+    const startAt40 = () =>{
+        window.scrollTo(0, 0);
+        setSecond("40")
+    }
+    const startAt70 = () =>{
+        window.scrollTo(0, 0);
+        setSecond("70")
+    }
+    const startAt90 = () =>{
+        window.scrollTo(0, 0);
+        setSecond("90")
+    }
+    const startAt107 = () =>{
+        window.scrollTo(0, 0);
+        setSecond("107")
+    }
+    const startAt119 = () =>{
+        window.scrollTo(0, 0);
+        setSecond("119")
+    }
     return (
         <article className="article">
             {allowed == false?<div id="video">
@@ -21,7 +50,7 @@ function Werbevideo() {
                 <input type="text" value={input} onChange={changeInput} />
                 <button onClick={checkPassword}>Password checken</button>
                 </div>:
-                <iframe id="video" src="https://www.youtube.com/embed/MX-KPMjX4U4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe id="video" src={"https://www.youtube.com/embed/MX-KPMjX4U4?start="+second} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
            }
              <p>
             Einsicht in unser McWerbevideo der Zukunft
@@ -66,32 +95,32 @@ function Werbevideo() {
             Ab hier werden wir einzelne Videosequenzen präziser analysieren: 
             <br />
             <br />
-            0:15-0:20: Hier sieht man, wie der Protagonist sein Handy aus seinem Hosensack zieht und eine Nachricht bezüglich seines Geburtstagsfestes erhält. Dies spielt deutlich auf die Digitalisierung an, da er schon in seinen jungen Jahren ein Smartphone besitzt. Darauffolgen schickt ihm die McDonald’s App eine Benachrichtig, in welcher sie preisgeben, dass sie nun die Planung und Ausführung von Geburtstagsfesten in ihrem Sortiment anbieten. Dies soll einen Bezug auf die gesteigerte Individualisierung nehmen, da die App den Protagonisten direkt anspricht und ihm eine private Benachrichtigung auf sein persönliches Handy zukommen lässt. Wie bereits erwähnt, haben wir hier die Markenerkennung durch die Benachrichtigung geschickt in einer der ersten Shots inszeniert.
+            <strong onClick={startAt15}>0:15-0:20:</strong> Hier sieht man, wie der Protagonist sein Handy aus seinem Hosensack zieht und eine Nachricht bezüglich seines Geburtstagsfestes erhält. Dies spielt deutlich auf die Digitalisierung an, da er schon in seinen jungen Jahren ein Smartphone besitzt. Darauffolgen schickt ihm die McDonald’s App eine Benachrichtig, in welcher sie preisgeben, dass sie nun die Planung und Ausführung von Geburtstagsfesten in ihrem Sortiment anbieten. Dies soll einen Bezug auf die gesteigerte Individualisierung nehmen, da die App den Protagonisten direkt anspricht und ihm eine private Benachrichtigung auf sein persönliches Handy zukommen lässt. Wie bereits erwähnt, haben wir hier die Markenerkennung durch die Benachrichtigung geschickt in einer der ersten Shots inszeniert.
             <br/>
             <br/>
-            0:25-0:40: Der Shot wechselt zu einer Kinderfreundesgruppe, welche im Wald spielen und herumrennen. Sie soll die Hauptzielgruppe von McDonald’s ansprechen – Kinder. Die Zielgruppe soll sehen, wie viel Spass gleichaltrige Kinder bei McDonald’s haben. Dies soll so ein Verlangen bei den Viewer:innen erzeugen, so dass das Individuum seinen/ihren Geburtstag ebenfalls mit McDonald’s feiern möchte. 
+            <strong onClick={startAt25}> 0:25-0:40:</strong> Der Shot wechselt zu einer Kinderfreundesgruppe, welche im Wald spielen und herumrennen. Sie soll die Hauptzielgruppe von McDonald’s ansprechen – Kinder. Die Zielgruppe soll sehen, wie viel Spass gleichaltrige Kinder bei McDonald’s haben. Dies soll so ein Verlangen bei den Viewer:innen erzeugen, so dass das Individuum seinen/ihren Geburtstag ebenfalls mit McDonald’s feiern möchte. 
             Dennoch wird die Gruppe klar vom Protagonisten differenziert, da die McDonald’s Mitarbeitenden klarstellen, wessen Geburtstag es eigentlich ist.  
             <br/>
             <br/>
-            0:40-1:10: Die Kinder bestellen in dieser Szene ihr Essen. Wenn man sich die Bestellung anhört, soll eine deutliche Diversifikation der Menüs von McDonald’s auffallen. Basierend auf den ansteigenden Trends des Vegetarismus und Veganismus behaupten wir durch unsere Recherche, dass McDonald’s diesen nachgehen wird und ihr Sortiment in diesen Gebieten ausweiten wird (Diemand, 2019). Die Szene soll nichtsdestotrotz ebenfalls aufzeigen, dass McDonald’s ihre Klassiker auch in der Zukunft beibehalten werden. Die Begründung dahinter lautet, dass diese sich als äusserst erfolgreich beweisen und somit auch als Markensymbol gelten. Laut Schaeppi (2021), wird McDonald’s versuchen auf ihrer Zielgeraden zu verharren, da dies die Grundidee ihres Marketings ist. Sie weichen nur im Falle der zu laut werdenden Kritik oder aufgrund der immer grösser werdenden Trends davon ab. 
+            <strong onClick={startAt40}>0:40-1:10:</strong> Die Kinder bestellen in dieser Szene ihr Essen. Wenn man sich die Bestellung anhört, soll eine deutliche Diversifikation der Menüs von McDonald’s auffallen. Basierend auf den ansteigenden Trends des Vegetarismus und Veganismus behaupten wir durch unsere Recherche, dass McDonald’s diesen nachgehen wird und ihr Sortiment in diesen Gebieten ausweiten wird (Diemand, 2019). Die Szene soll nichtsdestotrotz ebenfalls aufzeigen, dass McDonald’s ihre Klassiker auch in der Zukunft beibehalten werden. Die Begründung dahinter lautet, dass diese sich als äusserst erfolgreich beweisen und somit auch als Markensymbol gelten. Laut Schaeppi (2021), wird McDonald’s versuchen auf ihrer Zielgeraden zu verharren, da dies die Grundidee ihres Marketings ist. Sie weichen nur im Falle der zu laut werdenden Kritik oder aufgrund der immer grösser werdenden Trends davon ab. 
             Am Ende der Szene erfährt man zusätzlich, dass die Standartmenü auf ein Angebot mit Früchten und Salaten ausgeweitet wird. Dieser Aspekt kann auf den wichtigen Trend der Gesundheit zurückgeführt werden, welcher bereits jetzt schon eine Anpassung von McDonald’s verlangt hat, indem sie beispielsweise die Kalorien ihrer Menüs angeben müssen oder ihre Happy Meals scheinbar gesünder gestallten (Swissfuture, 2018).
             <br/>
             <br/>
-            1:10- 1:30: 
+            <strong onClick={startAt70}>1:10-1:30:</strong>
             Nun führen die McDonald’s Mitarbeiter:innen ihr Programm mit den Kindern durch. Dies soll wieder auf den Trend der Gesundheit deuten, da sie draussen an der frischen Luft gemeinsam sportliche Aktivitäten durchführen. Ebenfalls soll damit gezeigt werden, wie viel Spass die Kinder haben und dass die Gruppendynamik dadurch gestärkt wird. McDonald’s soll als weitaus mehr als nur ein Fast-Food-Restaurant wahrgenommen werden.
             <br/>
             <br/>
-            1:30-1.35: Die Zukunft wird viele neuen Erfindungen und Möglichkeiten mit sich bringen. Heutzutage sind Essenslieferungsdienste schon sehr beliebt. Anhand unserer Recherche gehen wir davon aus, dass sich diese fortlaufend revolutionieren werden. Beispielsweise, wie im Werbevideo gezeigt wird, könnte eine Drohne zukünftig das Essen überall und zu jeder Zeit ausliefern. Wir gehen sogar so weit und behaupten im Video, dass man Essen in der Zukunft ins Nirgendwo, nämlichen beispielsweise in den Wald, bestellen kann. 
+            <strong onClick={startAt90}>1:30-1:35:</strong> Die Zukunft wird viele neuen Erfindungen und Möglichkeiten mit sich bringen. Heutzutage sind Essenslieferungsdienste schon sehr beliebt. Anhand unserer Recherche gehen wir davon aus, dass sich diese fortlaufend revolutionieren werden. Beispielsweise, wie im Werbevideo gezeigt wird, könnte eine Drohne zukünftig das Essen überall und zu jeder Zeit ausliefern. Wir gehen sogar so weit und behaupten im Video, dass man Essen in der Zukunft ins Nirgendwo, nämlichen beispielsweise in den Wald, bestellen kann. 
             <br/>
             <br/>
-            1.30-1.47: Nun ist das bestellte Essen geliefert worden und wird soeben von den McDonald’s Mitarbeitenden an die Kinder verteilt. Hier kann man erkennen, dass alles individuell verpackt wurde und dies soll wieder einen Zusammenhang zum zunehmenden Trend der Individualisierung darstellen. 
+            <strong onClick={startAt90}>1:30-1:47:</strong> Nun ist das bestellte Essen geliefert worden und wird soeben von den McDonald’s Mitarbeitenden an die Kinder verteilt. Hier kann man erkennen, dass alles individuell verpackt wurde und dies soll wieder einen Zusammenhang zum zunehmenden Trend der Individualisierung darstellen. 
             <br/>
             <br/>
-            1.47-1.58: Die Montage zeigt, dass das Essen weitaus gesünder und selbstgemacht aussieht. Die Früchte und Salate inszenieren wieder, dass McDonald’s zukünftig einen grösseren Wert auf die Gesundheit seiner Konsument:innen legen wird. Man kann dies außerdem bei den aufgeführten Getränken erkennen, da sie möglichst zuckerarm ausfallen. Ausserdem wird Wasser angeboten. 
+            <strong onClick={startAt107}>1.47-1.58:</strong> Die Montage zeigt, dass das Essen weitaus gesünder und selbstgemacht aussieht. Die Früchte und Salate inszenieren wieder, dass McDonald’s zukünftig einen grösseren Wert auf die Gesundheit seiner Konsument:innen legen wird. Man kann dies außerdem bei den aufgeführten Getränken erkennen, da sie möglichst zuckerarm ausfallen. Ausserdem wird Wasser angeboten. 
             Weiterführend kann man die Verpackungen vom Fast-Food-Giganten analysieren. Die zukünftige Verpackung sieht im Video bei Weitem umweltfreundlicher aus als die aktuelle Verpackung. Im gesamten Werbespot befindet sich ebenfalls kein Plastik. Dies soll in Zukunft durch einen vermehrten Nutzen von klimafreundlicheren Mitteln, wie beispielsweise Glas und Papier, ersetzt werden (Verpackungsoptimierung und Recycling | Verpackung & Recycling | Nachhaltigkeit | Unsere Verantwortung | McDonald’s Deutschland, o. D.). 
             <br/>
             <br/>
-            1.59-2.08: In diesem Abschnitt sieht man einen McDonald’s Mitarbeiter, der sich um die korrekte Entsorgung des Abfalls kümmert. Dies soll die neuen, revolutionierten Grundwerte von McDonald’s wiederspiegeln. Er weist die Kinder darauf hin, ihren Abfall zu trennen und ihm diesen abzugeben. Er verspricht den Müll nach dem Fest einwandfrei zu recyceln. Hiermit soll ebenso gezeigt werden, dass die Umwelt für McDonald’s und auch für die dazugehörigen Mitarbeitenden von grosser Wichtigkeit sein wird, da sie keinen Müll in der Natur herumliegen lassen wollen.  
+            <strong onClick={startAt119}>1.59-2.08:</strong> In diesem Abschnitt sieht man einen McDonald’s Mitarbeiter, der sich um die korrekte Entsorgung des Abfalls kümmert. Dies soll die neuen, revolutionierten Grundwerte von McDonald’s wiederspiegeln. Er weist die Kinder darauf hin, ihren Abfall zu trennen und ihm diesen abzugeben. Er verspricht den Müll nach dem Fest einwandfrei zu recyceln. Hiermit soll ebenso gezeigt werden, dass die Umwelt für McDonald’s und auch für die dazugehörigen Mitarbeitenden von grosser Wichtigkeit sein wird, da sie keinen Müll in der Natur herumliegen lassen wollen.  
             <br/>
             <br/>
             <br />
