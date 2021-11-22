@@ -2027,6 +2027,7 @@
   margin: 1vh;
   max-width: 100%;
   width: 70vw;
+  height: 30vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2044,17 +2045,12 @@
   margin-bottom: 4vh;
 }
 
-#video * {
-  margin: 2vh;
-}
-
 #video h1 {
-  margin-top: 10vh;
   text-align: center;
 }
 
 #video button {
-  margin-bottom: 10vh;
+  margin-bottom: 2vh;
   margin-top: 1vh;
   background-color: #298c3e;
   border: 0;
