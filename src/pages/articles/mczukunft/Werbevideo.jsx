@@ -92,7 +92,7 @@ function Werbevideo() {
             <br/>
             <br/>
             <br />
-            Ab hier werden wir einzelne Videosequenzen präziser analysieren: 
+            Ab hier werden wir einzelne Videosequenzen präziser analysieren (Sie können mit der Maus oder dem Finger auf die Zeit drücken und werden dann zur jeweiligen Szene gebracht):  
             <br />
             <br />
             <strong onClick={startAt15}>0:15-0:20:</strong> Hier sieht man, wie der Protagonist sein Handy aus seinem Hosensack zieht und eine Nachricht bezüglich seines Geburtstagsfestes erhält. Dies spielt deutlich auf die Digitalisierung an, da er schon in seinen jungen Jahren ein Smartphone besitzt. Darauffolgen schickt ihm die McDonald’s App eine Benachrichtig, in welcher sie preisgeben, dass sie nun die Planung und Ausführung von Geburtstagsfesten in ihrem Sortiment anbieten. Dies soll einen Bezug auf die gesteigerte Individualisierung nehmen, da die App den Protagonisten direkt anspricht und ihm eine private Benachrichtigung auf sein persönliches Handy zukommen lässt. Wie bereits erwähnt, haben wir hier die Markenerkennung durch die Benachrichtigung geschickt in einer der ersten Shots inszeniert.
