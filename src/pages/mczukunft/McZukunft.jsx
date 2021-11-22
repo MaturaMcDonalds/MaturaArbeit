@@ -30,7 +30,7 @@ export default function McZunkuft() {
                 <img src={pic2} alt="" id="pic2"></img>
                 <div className="textOverImg">
                     <p className="heroTextTitle">Was macht das Klima mit McDonald’s</p>
-                    <p className="heroText">Szenarien wie die Zukunft des McMarketing in Anbetracht aufs Klima werden könnte</p>
+                    <p className="heroText">Szenarien, wie die Zukunft des McMarketing in Anbetracht aufs Klima werden könnte</p>
                     <button onClick={()=>{history.push("/MaturaArbeit/McZukunft/KlimaVeraenderung")}}><p>Nachlesen</p></button>
                 </div>
             </div>
