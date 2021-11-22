@@ -38,7 +38,7 @@ function McAktuell() {
             <div className="articleBox">
                 <div className="left">
                     <h1>
-                    Was macht McDonalds für, die kein Fleisch wollen?
+                    Was macht McDonalds für die, die kein Fleisch wollen?
                     </h1>
                     <p className="boxtext">
                     Was gibt’s überhaupt ausser Pommes?
@@ -55,7 +55,7 @@ function McAktuell() {
                     Was passierte während unserer Arbeit?
                     </h1>
                     <p className="boxtext">
-                    Eine Auswahl an Ereignissen die das McMarketing der letzten Monate prägnten
+                    Eine Auswahl an Ereignissen, die das McMarketing der letzten Monate prägten
                     </p>
                     <button onClick={()=>{history.push("/MaturaArbeit/McAktuell/UnsereAbreit")}}><p>Nachlesen</p></button>
                 </div>

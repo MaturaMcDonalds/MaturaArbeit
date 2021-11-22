@@ -15,10 +15,10 @@ const Klimawandelabfall = () => {
             <br />
 
             <p>
-            Einer der immer grösser werdenden Thematiken ist der Klimaschutz. Hinzu kommt, dass die Kritik der Verletzung des Umweltschutzes immer lauter wird. McDonald’s erfährt dies aufgrund zweierlei Faktoren: Erstens durch ihre fleischlastigen Menüoptionen und zweitens durch die Anhäufung von Abfall, der durch ihre Verpackungen produziert wird. 
+            Eine der immer grösser werdenden Thematiken ist der Klimaschutz. Hinzu kommt, dass die Kritik der Verletzung des Umweltschutzes immer lauter wird. McDonald’s erfährt dies aufgrund zweierlei Faktoren: Erstens durch ihre fleischlastigen Menüoptionen und zweitens durch die Anhäufung von Abfall, der durch ihre Verpackungen produziert wird. 
             </p>
             <br />
-            <p>In diesem Artikel wollen wir die Beschaffenheit dieser beidem Faktoren in Hinsicht auf McDonald’s analysieren. Beginnen wir zuerst mit dem Fleischkonsum, welcher in McDonald’s bei fast allen Menüs gegeben ist. Die Fleischindustrie steht schon lange in der Kritik. Nicht nur das Wohl der Tiere, sondern auch die Auswirkungen auf die Umwelt sind Aspekte, welche immer wieder für Furore sorgen. Die Fleischproduktion ist für den grössten, menschengemachten CO2 Ausstoss verantwortlich. Somit ist auch der Hauptmenüpunkt von McDonald’s definitiv nicht umweltfreundlich.
+            <p>In diesem Artikel wollen wir die Beschaffenheit dieser beidem Faktoren in Hinsicht auf McDonald’s analysieren. Beginnen wir zuerst mit dem Fleischkonsum, welcher in McDonald’s bei fast allen Menüs gegeben ist. Die Fleischindustrie steht schon lange in der Kritik. Nicht nur das Wohl der Tiere, sondern auch die Auswirkungen auf die Umwelt sind Aspekte, welche immer wieder für Furore sorgen. Die Fleischproduktion ist für den grössten, menschengemachten CO2 Ausstoss verantwortlich (Zee, 2020). Somit ist auch der Hauptmenüpunkt von McDonald’s definitiv nicht umweltfreundlich.
             </p>
 
             <br />

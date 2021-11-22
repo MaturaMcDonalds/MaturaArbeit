@@ -8,7 +8,7 @@ function Gesundheitsexpansion() {
             <h1 className="title">Gesundheitsexpansion</h1>
             <p className="subtitle">
 
-            2 Szenarien wie sich die Gesundheitsexpansion auf McDonald’s auswirken könnte
+            Zwei Szenarien wie sich die Gesundheitsexpansion auf McDonald’s auswirken könnte
             </p>
             <br />
             <img src={pic1} alt="" className="hero"/>
@@ -18,7 +18,7 @@ function Gesundheitsexpansion() {
             </p>
             <br />
             <p>
-            Dies wirkt sich auch auf die Ernährung der Personen aus und stellt somit auf eine gewisse Wei-se McDonalds vor ein Problem, weil diese sehr kalorien- und fettreiches Essen vertreiben. Hierfür stellen wir 2 Szenarien auf, wie McDonalds darauf reagieren könnte.
+            Dies wirkt sich auch auf die Ernährung der Personen aus und stellt somit auf eine gewisse Wei-se McDonalds vor ein Problem, weil diese sehr kalorien- und fettreiches Essen vertreiben. Hierfür stellen wir Zwei Szenarien auf, wie McDonalds darauf reagieren könnte.
             </p>
             <br />
             <br />

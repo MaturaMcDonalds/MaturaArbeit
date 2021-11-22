@@ -15,7 +15,7 @@ const Geschichte = () => {
                 <img src={pic1} alt="" ></img>
                 <div className="textOverImg">
                     <p className="heroTextTitle">Grundprinzipien und wo sie herkommen</p>
-                    <p className="heroText">Eine geschichtliche Einführungs in das Universum des riesigen Fast-Food Konzerns</p>
+                    <p className="heroText">Eine geschichtliche Einführung in das Universum des riesigen Fast-Food Konzerns</p>
                     <button onClick={()=>{history.push("/MaturaArbeit/McVergangenheit/Grundprinzipien")}}><p>Mehr erfahren</p></button>
                 </div>
             </div>
@@ -25,7 +25,8 @@ const Geschichte = () => {
                     Die McDonaldisierung der Welt
                     </h1>
                     <p className="boxtext">
-                    Der American Way of Life jetzt endlich national und international überall verfügbar
+                    
+Der American Way of Life jetzt endlich national und international überall verfügbar!
                     </p>
                     <button onClick={()=>{history.push("/MaturaArbeit/McVergangenheit/McDonaldisierung")}}><p>Nachlesen</p></button>
                 </div>

@@ -29,7 +29,7 @@ Kinder sind einfacher «anzulocken» als Erwachsene. Sie reflektieren weniger un
             </div>
             <p>
             Zu dieser Zeit waren Fernsehwerbung, auch in Bezug auf Kinder noch in den Anfängen. Zwar war es von Land zu Land unterschiedlich und hier in der Schweiz bei weitem nicht so dramatisch wie in den USA, trotzdem musste McDonald’s sich immer wieder Kritik stellen und ihre Werbekampagnen anpassen, weil sich Aufsichtsbehörden und Gesetze änderten.
-Als der Clown als solches sich immer mehr in eine Horrorfigur verwandelte, spätestens seit dem Debut von ES, (ein Horrorfilm eines Mörderclowns dessen Opfer kleine Kinder sind) ist der Clown als Maskottchen gestorben, ersetzt von der neuen Figur «dem Happy Meal»
+Als der Clown als solches sich immer mehr in eine Horrorfigur verwandelte, spätestens seit dem Debut von ES, (ein Horrorfilm eines Mörderclowns dessen Opfer kleine Kinder sind) ist der Clown als Maskottchen gestorben, ersetzt von der neuen Figur «dem Happy Meal». Es lässt sich also sagen, dass sich einige Dinge in Bezug auf Kinderwerbung in eine positive Richtung geändert haben. 
 </p>
             <br />
         </article>

@@ -17,7 +17,7 @@ function Werbevideo() {
     return (
         <article className="article">
             {allowed == false?<div id="video">
-                <h1>Bitte geben sie dass Passwort ein um dass Video zu betrachten</h1>
+                <h1>Bitte geben Sie das Passwort ein, um das Video anzuschauen</h1>
                 <input type="text" value={input} onChange={changeInput} />
                 <button onClick={checkPassword}>Password checken</button>
                 </div>:
