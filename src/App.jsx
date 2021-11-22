@@ -45,6 +45,9 @@ import Werbepsychologie from "./pages/articles/mcaktuell/Werbepsychologie";
 import Interview from "./pages/articles/maturaarbeit/Interview";
 import Abstract from "./pages/articles/maturaarbeit/Abstract";
 import Abschliessend from "./pages/articles/maturaarbeit/Abschliessend";
+import Kontakt from './pages/footer/Kontakt';
+import WissenschaftlicheKommentar from './pages/footer/WissenschaftlicheKommentar';
+import Literaturabbildungsverzeichnis from './pages/footer/LiteraturAbbildungsverzeichnis';
 
 function App() {
   return (
@@ -127,6 +130,15 @@ function App() {
           </Route>
           <Route exact path="/MaturaArbeit/Matura/Abschliessend">
             <Abschliessend />
+          </Route>
+          <Route exact path="/MaturaArbeit/Kontakt">
+            <Kontakt />
+          </Route>
+          <Route exact path="/MaturaArbeit/Kommentare">
+            <WissenschaftlicheKommentar />
+          </Route>
+          <Route exact path="/MaturaArbeit/Abbildungsverzeichniss">
+            <Literaturabbildungsverzeichnis />
           </Route>
           <Redirect to="/MaturaArbeit" />
         </Switch>

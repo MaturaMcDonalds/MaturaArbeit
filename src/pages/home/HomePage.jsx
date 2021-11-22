@@ -8,11 +8,7 @@ import hero from "../../assets/mczukunft/werbepsychologie.png"
 import CostumButton from "../components/button/Button";
 
 //<img src="https://github.com/MaturaMcDonalds/MaturaArbeit/blob/master/src/assets/home/Pic2.jpg?raw=true" alt="" className="img" />
-/*
-<div className="inprogress" scroll="no">
-                <p className="textInProgress">Work in progress</p>
-            </div> 
-*/
+
 export default function HomePage() {
     let history = useHistory();
     return (
@@ -22,18 +18,18 @@ export default function HomePage() {
                 <div className="textOverImg">
                     <p className="heroTextTitle">Einsicht in unser Werbevideo der Zukunft</p>
                     <p className="heroText">Ein Artikel zu unserem Werbevideo, was wir im Sinne von McDonald’s in 10 Jahren beschreiben</p>
-                    <button onClick={()=>{history.push("")}}><p>Nachlesen</p></button>
+                    <button onClick={()=>{history.push("/MaturaArbeit/McZukunft/Werbevideo")}}><p>Nachlesen</p></button>
                 </div>
             </div>
             <div className="infoBoxes">
                 <div className="box">
                     <img src={box1} alt="" srcset="" />
                     <div className="textbuttonheader">
-                        <p className="boxheader">Historische Grundprizipien</p>
+                        <p className="boxheader">Historische Grundprinzipien</p>
                         <p className="boxtext">
                         Und wo sie herkommen
                         </p>
-                        <button onClick={()=>{history.push("")}}><p>Nachlesen</p></button>
+                        <button onClick={()=>{history.push("/MaturaArbeit/McVergangenheit/Grundprinzipien")}}><p>Nachlesen</p></button>
                     </div>
                 </div>
                 <div className="box">
@@ -43,7 +39,7 @@ export default function HomePage() {
                         <p className="boxtext" id="Klimawandel">
                         Was macht McDonald’s dagegen?
                         </p>
-                        <button onClick={()=>{history.push("")}}><p>Nachlesen</p></button>
+                        <button onClick={()=>{history.push("/MaturaArbeit/McAktuell/KlimawandelAbfall")}}><p>Nachlesen</p></button>
                     </div>
                 </div>
                 <div className="box">
@@ -53,7 +49,7 @@ export default function HomePage() {
                         <p className="boxtext">
                         Was steckt dahinter?
                         </p>
-                        <button onClick={()=>{history.push("")}}><p className="nachlesen">Nachlesen</p></button>
+                        <button onClick={()=>{history.push("/MaturaArbeit/McAktuell/Werbepsychologie")}}><p className="nachlesen">Nachlesen</p></button>
                     </div>
                 </div>
             </div>
