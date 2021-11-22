@@ -9,7 +9,7 @@ export default function Interview() {
             <br />
             <br />
             <br />
-            <div className="text-picright">
+            <div className="interview">
             <div>
             <h2>Georges Roos</h2>
             <br />
@@ -22,11 +22,11 @@ export default function Interview() {
             </div>
             <img src={pic1} alt=""/>
             </div>
-
+            
             <br />
             <br />
 
-            <div className="text-picright">
+            <div className="interview">
             <img src={pic2} alt=""/>
             <div className="leftmargin">
             <h2>Werner Schaeppi</h2>
