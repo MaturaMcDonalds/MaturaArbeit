@@ -6,13 +6,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5vh;
 }
 
-.top {
+.topGS {
   overflow: hidden;
   display: grid;
   grid-template-columns: 20% 20% 20% 30% 10%;
-  grid-template-rows: 20% 30% 10% 20% 20%;
+  grid-template-rows: 20% 40% 10% 20% 20%;
   img {
     grid-column-start: 1;
     grid-column-end: 6;
@@ -41,7 +42,6 @@
     background-color: #298c3e;
     border: 0;
     padding: 1.5vh;
-    width: 60%;
     border-radius: 5px;
     p {
       font-weight: 500;
@@ -72,7 +72,7 @@
   margin-bottom: 5vh;
 }
 
-.articleBox {
+.articleBoxGs {
   -webkit-box-shadow: 5px 5px 20px -10px rgba(0, 0, 0, 0.79);
   box-shadow: 5px 5px 20px -10px rgba(0, 0, 0, 0.79);
   margin-top: 8.5vh;
@@ -80,12 +80,15 @@
   display: flex;
 }
 
-.left {
+.leftGs {
   width: 50%;
   border-radius: 5px 0 0 5px;
   display: flex;
   flex-direction: column;
   align-items: baseline;
+  * {
+    margin-bottom: 1vh;
+  }
   padding-left: 1vw;
   padding-top: 1.5vh;
   padding-bottom: 1.5vh;
@@ -105,13 +108,13 @@
     }
   }
 }
-.boxtext {
+.boxtextgs {
   font-weight: 400;
   font-size: medium;
   margin-top: 2vh;
   margin-bottom: 2vh;
 }
-.right {
+.rightGs {
   width: 50%;
   width: 50%;
   height: inherit;
@@ -129,7 +132,7 @@
 }
 
 @media only screen and (max-width: 1020px) {
-  .articleBox {
+  .articleBoxGs {
     -webkit-box-shadow: 5px 5px 20px -10px rgba(0, 0, 0, 0.79);
     box-shadow: 5px 5px 20px -10px rgba(0, 0, 0, 0.79);
     margin-top: 8.5vh;
@@ -137,7 +140,7 @@
     display: flex;
     flex-direction: column;
   }
-  .right {
+  .rightGs {
     width: 100%;
     height: inherit;
     img {
@@ -147,7 +150,7 @@
       border-radius: 5px 5px 5px 5px;
     }
   }
-  .left {
+  .leftGs {
     width: 100%;
     border-radius: 5px 0 0 5px;
     display: flex;
@@ -188,11 +191,11 @@
   }
 }
 @media only screen and (max-width: 1475px) {
-  .top {
+  .topGS {
     overflow: hidden;
     display: grid;
     grid-template-columns: 20% 20% 20% 30% 10%;
-    grid-template-rows: 20% 30% 10% 20% 20%;
+    grid-template-rows: 20% 40% 20% 20%;
     img {
       grid-column-start: 1;
       grid-column-end: 6;
@@ -224,7 +227,6 @@
       background-color: #298c3e;
       border: 0;
       padding: 1.5vh;
-      width: 60%;
       border-radius: 5px;
       p {
         font-weight: 500;
@@ -235,5 +237,79 @@
         box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.2);
       }
     }
+  }
+}
+
+@media only screen and (max-width: 1155px) {
+  .topGS {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 5px 5px 20px -10px rgba(0, 0, 0, 0.79);
+    box-shadow: 5px 5px 20px -10px rgba(0, 0, 0, 0.79);
+    .textOverImg {
+      border-radius: 0px 0px 5px 5px;
+      .heroText {
+        margin-top: 2vh;
+      }
+      button {
+        transform: translateX(-16%);
+        margin-top: 4vh;
+        width: auto;
+      }
+    }
+    img {
+      grid-column-start: 1;
+      grid-column-end: 6;
+      grid-row-start: 1;
+      grid-row-end: 6;
+      border-radius: 5px 5px 0px 0px;
+      max-width: 100%;
+    }
+  }
+  .heroTextTitle {
+    font-weight: 600;
+    font-size: 25px;
+  }
+  .textOverImg {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    -webkit-box-shadow: 2px 2px 20px -10px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 20px -10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5.5%;
+    text-align: center;
+    background-color: white;
+    button {
+      margin-top: 1vh;
+      background-color: #298c3e;
+      border: 0;
+      padding: 1.5vh;
+      border-radius: 5px;
+      p {
+        font-weight: 500;
+        font-size: large;
+      }
+      &:hover {
+        cursor: pointer;
+        box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 395px) {
+  .mcGeschichte {
+    margin-top: 5vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
   }
 }

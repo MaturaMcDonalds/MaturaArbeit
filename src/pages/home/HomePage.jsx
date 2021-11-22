@@ -5,9 +5,7 @@ import box1 from "../../assets/homepage/box1.png";
 import box2 from "../../assets/homepage/box2.png";
 import box3 from "../../assets/homepage/box3.png";
 import hero from "../../assets/mczukunft/werbepsychologie.png"
-import CostumButton from "../components/button/Button";
 
-//<img src="https://github.com/MaturaMcDonalds/MaturaArbeit/blob/master/src/assets/home/Pic2.jpg?raw=true" alt="" className="img" />
 
 export default function HomePage() {
     let history = useHistory();
