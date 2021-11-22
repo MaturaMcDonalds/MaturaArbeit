@@ -32,13 +32,13 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link to="/MaturaArbeit/McAktuell">
-                        McAktuell & Werbepyschologie
+                        <Link to="/MaturaArbeit/McVergangenheit">
+                            McVergangenheit
                         </Link>
                     </li>
                     <li>
-                        <Link to="/MaturaArbeit/McVergangenheit">
-                            McVergangenheit
+                        <Link to="/MaturaArbeit/McAktuell">
+                            McAktuell & Werbepyschologie
                         </Link>
                     </li>
                     <li>

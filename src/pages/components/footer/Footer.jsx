@@ -6,9 +6,23 @@ const Footer = () => {
     return (
         <footer>
             <ul className="linksbottom">
-                <li onClick={()=>{history.push("/MaturaArbeit/Abbildungsverzeichniss")}}>Quellen/Abbildungssverz. <br /><p color="grey">Alle Angaben der Website sind ohne Gewähr</p></li>
-                <li onClick={()=>{history.push("/MaturaArbeit/Kommentare")}}>Wissenschaflticher Kommentar</li>
-                <li onClick={()=>{history.push("/MaturaArbeit/Kontakt")}}>Kontakt</li>
+                <li onClick={()=>{history.push("/MaturaArbeit/Abbildungsverzeichniss")}}>
+                    <p>
+                    Quellen/Abbildungssverz. </p><br />
+                    <p className="transparent">
+                    Alle Angaben der Website sind ohne Gewähr
+                    </p>
+                </li>
+                <li onClick={()=>{history.push("/MaturaArbeit/Kommentare")}}>
+                    <p>
+                    Wissenschaflticher Kommentar
+                    </p>
+                </li>
+                <li onClick={()=>{history.push("/MaturaArbeit/Kontakt")}}>
+                    <p>
+                    Kontakt
+                    </p>
+                </li>
             </ul>
         </footer>
     );

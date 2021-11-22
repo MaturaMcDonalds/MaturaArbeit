@@ -20,6 +20,12 @@ footer {
       display: flex;
       width: auto;
       font-family: "Open Sans", sans-serif;
+      li {
+        max-width: 20%;
+        .transparent {
+          color: rgba(221, 221, 221, 0.411);
+        }
+      }
     }
   }
 }

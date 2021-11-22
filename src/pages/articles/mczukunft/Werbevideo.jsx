@@ -1,10 +1,29 @@
-import React from 'react'
+import React,{useState} from 'react'
 
 function Werbevideo() {
+    const [allowed,setAllowed]= useState(false);
+    const [input, setInput] = useState("");
+    const changeInput = (e)=>{
+        setInput(e.target.value);
+        console.log(input)
+    }
+    const checkPassword = ()=>{
+        if(input==="12345"){
+            setAllowed(true)
+        }else{
+            setInput("");
+        }
+    }
     return (
         <article className="article">
-            <iframe id="video" src="https://www.youtube.com/embed/MX-KPMjX4U4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p>
+            {allowed == false?<div id="video">
+                <h1>Bitte geben sie dass Passwort ein um dass Video zu betrachten</h1>
+                <input type="text" value={input} onChange={changeInput} />
+                <button onClick={checkPassword}>Password checken</button>
+                </div>:
+                <iframe id="video" src="https://www.youtube.com/embed/MX-KPMjX4U4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           }
+             <p>
             Einsicht in unser McWerbevideo der Zukunft
             Wie McDonald’s uns möglicherweise im nächsten Jahrzehnt bewirbt 
             <br/>
