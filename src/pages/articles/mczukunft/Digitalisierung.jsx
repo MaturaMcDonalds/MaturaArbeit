@@ -4,10 +4,10 @@ import pic1 from "../../../assets/articles/mczukunft/4.png";
 function Digitalisierung() {
     return (
         <article className="article">
-            <h1 className="title">Digitalsierung</h1>
+            <h1 className="title">Digitalisierung</h1>
             <p className="subtitle">
 
-            Zwei  Szenarien wie sich die Digitaliserung aufs McMarketing auswirken könnte
+            Zwei Szenarien, wie sich die Digitaliserung aufs McMarketing auswirken könnte
             </p>
             <br />
             <img src={pic1} alt="" className="hero"/>
