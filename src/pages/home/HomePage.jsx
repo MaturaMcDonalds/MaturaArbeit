@@ -15,7 +15,7 @@ export default function HomePage() {
                 <img src={hero} alt="" ></img>
                 <div className="textOverImg">
                     <p className="heroTextTitle">Einsicht in unser Werbevideo der Zukunft</p>
-                    <p className="heroText">Ein Artikel zu unserem Werbevideo, was wir im Sinne von McDonald’s in 10 Jahren beschreiben</p>
+                    <p className="heroText">Ein Artikel zu unserem Werbevideo, welches wir im Sinne von McDonald's in 10 Jahren gedreht haben</p>
                     <button onClick={()=>{history.push("/MaturaArbeit/McZukunft/Werbevideo")}}><p>Nachlesen</p></button>
                 </div>
             </div>

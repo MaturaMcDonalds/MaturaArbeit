@@ -10,10 +10,10 @@ function Grundprinzipien() {
             <br />
             <img src={pic1} alt="" className="hero"/>
             <p>
-            McDonalds hat heute feste Prinzipien, die in jedem 
+            McDonald's hat heute feste Prinzipien, die in jedem 
             Restaurant umgesetzt werden müssen. Wie sonst wäre 
-            es möglich das ich in der Schweiz, in Russland, in 
-            Argentinien und in den vereinigten Staaten beinahe 
+            es möglich, dass ich in der Schweiz, in Russland, in 
+            Argentinien und in den Vereinigten Staaten beinahe 
             das gleiche Erlebnis habe, wenn ich einen McDonald’s 
             betrete. Wo aber kommen diese Prinzipien her und wie 
             sind sie entstanden?
@@ -35,10 +35,10 @@ function Grundprinzipien() {
             <img src={pic2} alt="" id="gp2"/>
             </div>
             <p>
-            Die Konkurrenz wurde aber immer grösser und damit das Geschäft immer schwieriger, weswegen sich die Gebrüder ein neues System ausdenken mussten, um weiterhin als Restaurant zu existieren. Die Lösung war, kurzgesagt, das System des Autoherstellers Ford: Fliessbandproduktion. Es sollte alles standardisiert werden, einfach umzusetzen für ungelehrte Mitarbeiter und etwas für jeden sein. 
+            Die Konkurrenz wurde aber immer grösser und damit das Geschäft immer schwieriger, weswegen sich die Gebrüder ein neues System ausdenken mussten, um weiterhin als Restaurant zu existieren. Die Lösung war, kurzgesagt, das System des Autoherstellers Ford: Fliessbandproduktion. Es sollte alles standardisiert werden, einfach umzusetzen für ungelehrte Mitarbeiter und etwas für fast jeden werden. 
             Somit kam der Burger und damit das modulare Menü von Burger, Pommes und einem alkoholfreien Getränk, bei dem die Zutaten mit dem vorher erklärten System vor- und zubereitet werden. Fast-Food war erstmals wirklich schnell und trotzdem gut. Gleichzeitig erlaubte es den Brüdern den Ertrag um einiges zu erhöhen, was ihnen später die Expansion ermöglichte, die das Unternehmen zu dem machte, was es heute ist.
             Die Qualität sollte dabei aber nicht verloren gehen. Es sollten gute Zutaten sein (also pflegt man auch eine gute Beziehung zum Liefernden) und der Konsumierende sollte sich in einem hygienischen Umfeld befinden. Auch die Küche ist, bis heute, offen und für jeden Kunden zu sehen.
-            Schliesslich entschieden sich die beiden auch eine neue Zielgruppe besser anzusprechen: Familien mit Kindern. Eine wichtige Entscheidung für die spätere Entwicklung. 
+            Schliesslich entschieden sich etwas für fast jeden werden auch eine neue Zielgruppe besser anzusprechen: Familien mit Kindern. Eine wichtige Entscheidung für die spätere Entwicklung. 
             Damit waren sie also festgelegt, die Prinzipien mit denen McDonald’s gross wurde und die bis heute überall den gleichen Big Mac ermöglichen, soweit das sogar ein Index daraus entstanden ist. 
             </p>
             <br />

@@ -34,7 +34,7 @@ function KeinFleischMehr() {
             </p>
             <br />
             <p>
-            McDonald’s hat heute bereits solche Produkte und das Angebot wurde in den letzten Jahren immer grösser. Es gab schon vor dem ersten McVeggie, also dem ersten vegetarischen Burger vegetarische Produkte wie Pommes Frites und Salate, jedoch gibt es erst seit 2019 einen Burger, also der Hauptteil des Menüs von McDonald’s. 
+            McDonald’s hat heute bereits solche Produkte und das Angebot wurde in den letzten Jahren immer grösser. Es gab schon vor dem ersten McVeggie, also dem ersten vegetarischen Burger vegetarische Produkte, wie Pommes Frites und Salate, jedoch gibt es erst seit 2019 einen Burger, also der Hauptteil des Menüs von McDonald’s. 
 
             </p>
             <br />

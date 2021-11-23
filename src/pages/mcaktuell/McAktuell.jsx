@@ -18,7 +18,7 @@ function McAktuell() {
                 <div className="textOverImgMa">
                     <p className="heroTextTitleMa">Klimawandel und Verpackungen</p>
                     <p className="heroTextMa">Was McDonald’s gegen die Herausforderung tut, vor der die Menschheit steht</p>
-                    <button onClick={()=>{history.push("/MaturaArbeit/McAktuell/KlimawandelAbfall")}}><p>Mehr erfahren</p></button>
+                    <button onClick={()=>{history.push("/MaturaArbeit/McAktuell/KlimawandelAbfall")}}><p>Nachlesen</p></button>
                 </div>
             </div>
             <div className="articleBoxMa">
@@ -27,7 +27,7 @@ function McAktuell() {
                     Werbepsychologie
                     </h1>
                     <p className="boxTextMa">
-                    Eine Erläuterung was dahinter steckt anhand von Modellen, Theorien und Fallbeispielen
+                    Eine Erläuterung anhand von Modellen, Theorien und Fallbeispielen
                     </p>
                     <button onClick={()=>{history.push("/MaturaArbeit/McAktuell/Werbepsychologie")}}><p>Nachlesen</p></button>
                 </div>
@@ -69,7 +69,7 @@ function McAktuell() {
                     Was ist denn heute los?
                     </h1>
                     <p className="boxTextMa">
-                    Ein Einblick in die Marketingprinzipien von Heute
+                    Ein Einblick in die Marketingprinzipien von heute
                     </p>
                     <button onClick={()=>{history.push("/MaturaArbeit/McAktuell/HeuteLos")}}><p>Nachlesen</p></button>
                 </div>

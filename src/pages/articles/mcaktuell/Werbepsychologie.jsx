@@ -15,7 +15,7 @@ const Werbepsychologie = () => {
             <img src={pic1} alt="" className="hero"/>
             <br />
             <br />
-            <p>In diesem Artikel wird die Werbepsychologie des Fast-Food-Giganten McDonald’s genauer beleuchtet. In einem ersten Schritt werden Begriffe definiert und danach ein grundlegendes Modell verständlich erklärt. £in einem weiteren Schritt wird kurz erläutert, was in unserem Körper passiert, wenn wird Werbung wahrnehmen. Die Frage, weshalb McDonald’s seine Kinder als seine gescheit gewählte Zielgruppe definiert hat, wird von einem werbepsychologischen Standpunkt geklärt. Zu guter Letzt werden einige Werbebeispiele des Riesenkonzerns aufgeführt und kurz analysiert. Wir wollen durch diesen Artikel Dein Verständnis der Werbepsychologie vergrössern. Dieses Verständnis ist wichtig, da hinter dem Marketing von McDonald’s ein ausgeklügeltes System steckt, welches ebenfalls die Werbepsychologie beinhaltet. Wie Du, mussten wir uns dieses Wissen zuerst aneignen und durften hierfür ein sehr interessantes Gespräch mit Herrn Werner Schaeppi – einem Werbepsychologen  – führen. 
+            <p>In diesem Artikel wird die Werbepsychologie des Fast-Food-Giganten McDonald’s genauer beleuchtet. In einem ersten Schritt werden Begriffe definiert und danach ein grundlegendes Modell verständlich erklärt. In einem weiteren Schritt wird kurz erläutert, was in unserem Körper passiert, wenn wird Werbung wahrnehmen. Die Frage, weshalb McDonald’s Kinder, als seine gescheit gewählte Zielgruppe definiert hat, wird von einem werbepsychologischen Standpunkt geklärt. Zu guter Letzt werden einige Werbebeispiele des Riesenkonzerns aufgeführt und kurz analysiert. Wir wollen durch diesen Artikel Dein Verständnis der Werbepsychologie vergrössern. Dieses Verständnis ist wichtig, da hinter dem Marketing von McDonald’s ein ausgeklügeltes System steckt, welches ebenfalls die Werbepsychologie beinhaltet. Wie Du, mussten wir uns dieses Wissen zuerst aneignen und durften hierfür ein sehr interessantes Gespräch mit Herrn Werner Schaeppi – einem Werbepsychologen  – führen. 
             </p>
             <br />
             <br />
@@ -29,7 +29,7 @@ const Werbepsychologie = () => {
             <div className="text-picright">
             <img src={pic2} alt=""/>
             <p className="leftmargin">
-            In dieser Abbildung sieht man einige Aspekte der effektvollen Werbemassnahmen, welche auch für McDonald’s wichtig sind. Die meisten davon sind selbsterklärend, nur wirst Du wahrscheinlich das KISS-Prinzip nichtkennen. Dieses wird in unserem wissenschaftlichen Kommentar aufgeführt. 
+            In dieser Abbildung sieht man einige Aspekte der effektvollen Werbemassnahmen, welche auch für McDonald’s wichtig sind. Die meisten davon sind selbsterklärend, nur wirst Du wahrscheinlich das KISS-Prinzip nicht kennen. Dieses wird in unserem wissenschaftlichen Kommentar aufgeführt. 
             In der Werbepsychologie – bessergesagt in der allgemeinen Psychologie – gibt es Modelle und Prinzipien. Unter Modellen kann man sich ein vereinfachtes Abbild der Theorien vorstellen. Wir werden Dir in diesem Artikel das AIDA-Modell vorstellen, um Dir ein Beispiel aufzuführen. Meistens ist ein Modell in der Psychologie in verschiedene Stufen aufgeteilt, welche den Prozess vereinfacht darstellen. 
             Unter Prinzipien versteht man Gesetzmässigkeiten, welche im Zusammenhang mit der gewählten Theorie zutreffen. 
             </p>
@@ -63,7 +63,7 @@ const Werbepsychologie = () => {
             Ebenso probiert McDonald’s mit einprägsamen Slogans oder Jingles in das Langzeitgedächtnis ihrer Kundschaft zu gelangen. Das Ziel dahinter ist recht deutlich, sie wollen ihre Bekanntheit steigern, beibehalten und sichern. 
             </p>
             <br />
-            <p>Auch hat sich herausgestellt, das emotionale Werbung erfolgreicher ist, da Menschen ihr Verhalten auf emotionale Reaktionen nicht steuern können. Diesen Aspekt benutzt McDonald’s ebenso aus (Werbe- Und Konsumentenpsychologie, 2015; Werbung Und Psychologie: So Manipulieren Marken Unser Unterbewusstsein, 2019).  
+            <p>Auch hat sich herausgestellt, das emotionale Werbung erfolgreicher ist, da Menschen ihr Verhalten auf emotionale Reaktionen nicht steuern können. Diesen Aspekt nutzt McDonald’s ebenso aus (Werbe- Und Konsumentenpsychologie, 2015; Werbung Und Psychologie: So Manipulieren Marken Unser Unterbewusstsein, 2019).  
             </p>
             <br />
             <br />
@@ -72,10 +72,10 @@ const Werbepsychologie = () => {
             </p>
             <br />
             <p>
-            Erkennst Du nun, weshalb die Kritik aufgrund McDonald’s gewählten Hauptzielgruppe der Kinder begründet ist?
+            Erkennst Du nun, weshalb die Kritik aufgrund McDonald’s gewählter Hauptzielgruppe der Kinder begründet ist?
             <br />  
             <br />  
-            Kinder reagieren noch mehr auf emotionale Werbung. Sie haben, Schaeppi (2021) zufolge, auch weniger Filter zur Wahrnehmung der Werbung eingebaut. Somit ist es einfacher ein Kind zu umwerben, da es den Prozess erst viel zu spät oder sogar nicht merkt.   
+            Kinder reagieren noch mehr auf emotionale Werbung. Sie haben, Schaeppi (2021) zufolge, auch weniger Filter zur Wahrnehmung der Werbung eingebaut. Somit ist es einfacher ein Kind zu umwerben, da es den Prozess erst viel zu spät oder sogar nicht bemerkt.   
             </p>
             <br />
             <p>
@@ -102,7 +102,7 @@ const Werbepsychologie = () => {
             Werbebeispiele McDonald’s 
             </p>
             <br />
-            <p>Wie vorhin bereits erwähnt nutzt McDonald’s des Öfteren einprägsame Jingles, wie beispielsweise «I’m loving it», welcher weltweit genutzt wurde.
+            <p>Wie vorhin bereits erwähntm, nutzt McDonald’s des Öfteren einprägsame Jingles, wie beispielsweise «I’m loving it», welcher weltweit genutzt wurde.
             </p>
             <br />
             <img src={pic4} alt="" className="hero"/>
@@ -111,7 +111,7 @@ const Werbepsychologie = () => {
             <div className="text-picright">
             <img src={pic5} alt=""/>
             <p className="leftmargin">
-            Redewendungen beispielsweise werden angepasst auf die lokale Umgebung, sodass sich Leute eher verbunden fühlen mit dem unternehmen und zu Kosnsument:innen werden
+            Redewendungen werden auf die lokale Umgebung angepasst, sodass sich Leute eher verbunden fühlen mit dem Unternehmen und zu Konsument:innen werden
             </p>
             </div>
             <div className="text-picright">
@@ -122,7 +122,7 @@ const Werbepsychologie = () => {
             <div className="text-picright">
             <img src={pic7} alt=""/>
             <p className="leftmargin">
-            Auch beziehen sie sich mit ihrer Werbung der lokalen Angeboten gerne auf die örtliche Umgebung.  Die Kundschaft soll sich dabei denken: «Wow, diesen Burger gibt es nur hier!», so wird ein Verlangen erschaffen. Das Produkt wird eine Besonderheit im sonst weltweit gleichen Sortiment. Sie schreiben das sogar auf das Werbeplakat, somit muss die Kundschaft nicht einmal selbst daran denken. Dies ist Teil der sogenannten Glokaliserung, in welcher es darum geht lokal sich anzupassen aber global zu denken.            </p>
+            Auch beziehen sie sich mit ihrer Werbung der lokalen Angeboten gerne auf die örtliche Umgebung.  Die Kundschaft soll sich dabei denken: «Wow, diesen Burger gibt es nur hier!», so wird ein Verlangen erschaffen. Das Produkt wird eine Besonderheit im sonst weltweit gleichen Sortiment. Sie schreiben das sogar auf das Werbeplakat, somit muss die Kundschaft nicht einmal selbst daran denken. Dies ist Teil der sogenannten Glokaliserung, in welcher es darum geht sich lokal anzupassen aber global zu denken.            </p>
             </div>
         </article>
     );
