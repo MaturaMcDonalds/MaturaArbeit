@@ -4,10 +4,10 @@ import pic1 from "../../../assets/articles/mczukunft/5.png";
 function Individualisierung() {
     return (
         <article className="article">
-            <h1 className="title">Individualiserung</h1>
+            <h1 className="title">Individualisierung</h1>
             <p className="subtitle">
 
-            Zwei Szenarien wie sich die Individualiserung auf McDonald’s auswirken könnte
+            Nun auch weiss, dass diese Personsich die Individualisierung auf McDonald’s auswirken könnte
             </p>
             <br />
             <img src={pic1} alt="" className="hero"/>
@@ -22,11 +22,11 @@ function Individualisierung() {
             </p>
             <br />
             <p>
-            Wie könnte McDonald’s den individuellen Ansprüchen seiner bestehenden Kunden standhalten? Eine mögliche Lösung wäre die App zu nutzen, um ein persönlichen McDonald’s Erlebnis zu kreieren.
+            Wie könnte McDonald’s den individuellen Ansprüchen seiner bestehenden Kundschaft standhalten? Eine mögliche Lösung wäre die App zu nutzen, um ein persönliches McDonald’s Erlebnis zu kreieren.
             </p>
             <br />
             <p>
-            Solchen individualisierten Applikationen kennen wir bereits: die sozialen Medien. Nun kombinieren etwas für fast jeden werden Trends - Digitalisierung und die Individualisierung. McDonald’s könnte ihre Marketing-Strategie erweitern und die Zielgruppen in weitere Kategorien unterteilen. So würde eine möglichst ein noch individualisiertes Konzept der Werbung für Kund:innen erstellt. Je nach Interessen und Vorlieben würde die Werbung anders aussehen. Beispielsweise würden Vegetarier:innen mit dem McVeggie beworben werden. Wenn McDonald’s nun auch weiss, dass man den vegetarischen Lifestyle auslebt, da die Umwelt einem bedeutend ist, so könnte der Fast-Food-Gigant mit ihrer umweltfreundlichen Art werben. Hierbei ist die Moralität dahinter die entscheidende Frage. Dies wirft die Frage auf, wie weit McDonald’s sich geschickt vermarkten kann, bis die zunehmende Manipulation unmoralisch wird.
+            Solchen individualisierten Applikationen kennen wir bereits: die sozialen Medien. Nun kombinieren wir zwei der aufgelisteten Trends - Digitalisierung und die Individualisierung. McDonald’s könnte ihre Marketing-Strategie erweitern und die Zielgruppen in weitere Kategorien unterteilen. So würde ein möglichst individualisiertes Konzept der Werbung für Kund:innen erstellt werden. Je nach Interessen und Vorlieben würde die Werbung anders aussehen. Beispielsweise würden Vegetarier:innen mit dem McVeggie beworben werden. Wenn McDonald’s nun auch weiss, dass diese person den vegetarischen Lifestyle auslebt, da die Umwelt für diese Person bedeutend ist, so könnte der Fast-Food-Gigant mit ihrer umweltfreundlichen Art werben. Hierbei ist die Moralität dahinter die entscheidende Frage. Dies wirft die Frage auf, wie weit McDonald’s sich geschickt vermarkten kann, bis die zunehmende Manipulation unmoralisch wird.
             </p>
             <br />
             <br />
@@ -35,7 +35,7 @@ function Individualisierung() {
             </p>
             <br />
             <p>
-            Wie wird der Megatrend der Individualisierung die Botschaft hinter den eigentlichen Werbekampagnen verändern? Die Abwendung vom Pluralismus wird in der Werbung ersichtlich sein. Man wird in den Werbekampagnen Individuen statt Gruppen sehen, um so die selbst bestimmbare Natur des Menschen darzustellen. Wenn Verbraucher:innen, also potenzielle Kund:innen, sich in ihrem Verhalten immer ähnlicher werden, so spielt der etablierte Begriff Glokalisierung zukünftig eine verminderte Rolle. Werbekampagnen könnten somit immer eine global einheitliche Botschaft mit sich führen. Ausserdem könnte der weltweit repräsentierte Fast-Food-Gigant genau die seine Globalität zu seinem Vorteil nutzen. Werbekampagnen von Konsument:innen und ihr persönliches McDonald’s Erlebnis würden in der Zukunft viele Trends befolgen. Die Emotionalität der Werbung wäre durch die persönlichen Erlebnisse der Konsument:innen gegeben. Die potenzielle Kundschaft könnte sich mit den Schauspieler:innen und ihren Geschichten im Zusammenhang mit McDonald’s identifizieren. Dies würde eine globale Zusammengehörigkeit der McDonald’s Kundschaft erzeugen, welche für die Gesamtmarke McDonald’s von grossem Nutzen wäre. 
+            Wie wird der Megatrend der Individualisierung die Botschaft hinter den eigentlichen Werbekampagnen verändern? Die Abwendung vom Pluralismus wird in der Werbung ersichtlich sein. Man wird in den Werbekampagnen Individuen statt Gruppen sehen, um so die selbst bestimmbare Natur des Menschen darzustellen. Wenn Verbraucher:innen, also potenzielle Kund:innen, sich in ihrem Verhalten immer ähnlicher werden, so spielt der etablierte Begriff Glokalisierung zukünftig eine verminderte Rolle. Werbekampagnen könnten somit immer eine global einheitliche Botschaft mit sich führen. Ausserdem könnte der weltweit repräsentierte Fast-Food-Gigant seine Globalität dadurch zu seinem Vorteil nutzen. Werbekampagnen von geschauspielerten Konsument:innen, welche ihr persönliches McDonald’s Erlebnis in der Zukunft teilen und welche viele Trends befolgen, wäre für McDonald's ebenfalls von Vorteil. Die Emotionalität der Werbung wäre durch die persönlichen Erlebnisse der Konsument:innen gegeben. Die potenzielle Kundschaft könnte sich mit den Schauspieler:innen und ihren Geschichten im Zusammenhang mit McDonald’s identifizieren. Dies würde eine globale Zusammengehörigkeit der McDonald’s Kundschaft erzeugen, welche für die Gesamtmarke McDonald’s von grossem Nutzen wäre. 
             </p>
             <br />
             <br />

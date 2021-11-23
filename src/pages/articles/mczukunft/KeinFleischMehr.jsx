@@ -19,7 +19,7 @@ function KeinFleischMehr() {
             <br />
 
             <p>
-            Der Konsum von pro Kopf in der Schweiz sinkt, der Klimawandel und das Wohl der Tiere werden immer häufiger diskutiert. Es gibt immer mehr Vegetarier:innen, Veganer:innen oder einfach Leute, die weniger Fleisch konsumieren. Dieser Trend zeigt sich in den meisten europäischen und im Allgemeinen, in entwickelten Ländern und führt so auch zu einem Wandel im Markt. Es gibt immer mehr pflanzliche und aber auch künstlich produzierte Fleischersatzprodukte, die beginnen den Markt zu dominieren. („Produktion von Fleischersatzprodukten steigt 2020 um mehr als ein Drittel“, 2021). Was also würde mit McDonalds und deren Werbung passieren, wenn dieser Megatrend sich durchsetzt und der Konsum von Fleisch pro Kopf weiter sinkt und somit auch einer der Hauptmärke beginnt zu schrumpfen.
+            Der Konsum von pro Kopf in der Schweiz sinkt, der Klimawandel und das Wohl der Tiere werden immer häufiger diskutiert. Es gibt immer mehr Vegetarier:innen, Veganer:innen oder einfach Leute, die weniger Fleisch konsumieren. Dieser Trend zeigt sich in den meisten europäischen und im Allgemeinen, in entwickelten Ländern und führt so auch zu einem Wandel im Markt. Es gibt immer mehr pflanzliche und aber auch künstlich produzierte Fleischersatzprodukte, die beginnen den Markt zu dominieren. („Produktion von Fleischersatzprodukten steigt 2020 um mehr als ein Drittel“, 2021). Was also würde mit McDonald's und deren Werbung passieren, wenn dieser Megatrend sich durchsetzt und der Konsum von Fleisch pro Kopf weiter sinkt und somit auch einer der Hauptmärke beginnt zu schrumpfen.
             </p>
             <br />
             <br />
@@ -34,7 +34,7 @@ function KeinFleischMehr() {
             </p>
             <br />
             <p>
-            McDonald’s hat heute bereits solche Produkte und das Angebot wurde in den letzten Jahren immer grösser. Es gab schon vor dem ersten McVeggie, also dem ersten vegetarischen Burger vegetarische Produkte, wie Pommes Frites und Salate, jedoch gibt es erst seit 2019 einen Burger, also der Hauptteil des Menüs von McDonald’s. 
+            McDonald’s hat heute bereits solche Produkte und das Angebot wurde in den letzten Jahren immer grösser. Es gab schon vor dem ersten McVeggie, also dem ersten vegetarischen Burger, vegetarische Produkte, wie Pommes Frites und Salate, jedoch gibt es erst seit 2019 einen Burger, also der Hauptteil des Menüs von McDonald’s. 
 
             </p>
             <br />
@@ -44,12 +44,12 @@ function KeinFleischMehr() {
             </p>
             <br />
             <p>
-            Grundsätzlich widerspricht auch der Philosophie von vegetarischen/veganen Produkten nichts, schliesslich steht nirgendwo geschrieben, dass McDonalds nur Fleisch verkaufen darf. Anders als beispielsweise KFC, Krispy fried Chicken, welche bereits in ihrem Namen das vegetarische ausschliessen. McDonalds verkauft Burger, welche durchaus auch vegan oder vegetarisch sein können, es widerspricht also keinen Prinzipien des McMarketings im Grunde. 
+            Grundsätzlich widerspricht auch der Philosophie von vegetarischen/veganen Produkten nichts, schliesslich steht nirgendwo geschrieben, dass McDonald's nur Fleisch verkaufen darf. Anders als beispielsweise KFC, Krispy fried Chicken, welche bereits in ihrem Namen das vegetarische ausschliessen. McDonalds verkauft Burger, welche durchaus auch vegan oder vegetarisch sein können, es widerspricht also keinen Prinzipien des McMarketings im Grunde. 
 
             </p>
             <br />
             <p>
-            Die Werbung an sich könnte sich somit aber in eine Richtung verstärkt werden, um die immer grössere Gruppe der Veganer:innen anzusprechen. Dies nicht nur mit Werbung, welche nur noch vegetarische Produkte zeigt, aber McDonald’s könnte zeigen, wie sie sich um das Tier-wohl sorgen, wie sie im Sinne des Klimawandels handeln. Sie könnten ihre Werbung spezifi-scher auf die wachsende Zielgruppe anpassen.
+            Die Werbung könnte sich somit in eine Richtung bewegen, um die immer grössere Gruppe der Veganer:innen anzusprechen. Dies nicht nur mit Werbung, welche nur noch vegetarische Produkte zeigt, aber McDonald’s könnte zeigen, wie sie sich um das Tierwohl sorgen, wie sie im Sinne des Klimawandels handeln. Sie könnten ihre Werbung spezifischer auf die wachsende Zielgruppe anpassen.
 
             </p>
             <br />
@@ -61,7 +61,7 @@ function KeinFleischMehr() {
             </p>
 <br />
             <p>
-            Künstlich produziertes Fleisch, also in der Fabrik künstlich hergestellt, aus Muskelzellen, wel-che nicht vom Tier kommen ist in den letzten Jahren ein aufkommender Trend. Für Vegetarier:innen und Veganer:innen welche kein Fleisch aus moralischer Motivation dem Tier gegen-über konsumieren, können dieses «künstliche Fleisch» problemlos konsumieren. Auch für Fleischesser, welche sich für das Tierwohl interessieren, stellt es eine Lösung des Problems dar. Das Problem dabei ist aber, dass diese Lösungen heute nicht unbedingt besser für das Klima sind als herkömmliches Fleisch (Moorstedt, 2021).
+            Künstlich produziertes Fleisch, also in der Fabrik künstlich hergestellt, aus Muskelzellen, welche nicht vom Tier kommen, ist in den letzten Jahren ein aufkommender Trend. Vegetarier:innen und Veganer:innen welche kein Fleisch aus moralischer Motivation dem Tier gegenüber konsumieren, können dieses «künstliche Fleisch» problemlos konsumieren. Auch für Fleischesser, welche sich für das Tierwohl interessieren, stellt es eine Lösung des Problems dar. Das Problem dabei ist aber, dass diese Lösungen heute nicht unbedingt besser für das Klima sind als herkömmliches Fleisch (Moorstedt, 2021).
 
             </p>
             <br />
@@ -72,7 +72,7 @@ function KeinFleischMehr() {
             </p>
             <br />
             <p>
-            Auch hier widerspricht nichts der Philosophie von McDonald’s. Dieses Fleisch ist vermutlicher aber teurer, schwieriger herzustellen und könnte den teilweise sehr hohen Standards, welche vor allem McDonald’s Schweiz in Bezug auf Fleisch hat, nicht entsprechen. Dies würde auf der einen Seite bedeuten, dass der Gewinn pro Produkt sinkt, aber eine grössere Zielgruppe ange-zogen wird oder die Produkte teurer sind. 
+            Auch hier widerspricht nichts der Philosophie von McDonald’s. Dieses Fleisch ist vermutlicher aber teurer, schwieriger herzustellen und könnte den teilweise sehr hohen Standards, welche vor allem McDonald’s Schweiz in Bezug auf Fleisch hat, nicht entsprechen. Dies würde auf der einen Seite bedeuten, dass der Gewinn pro Produkt sinkt, aber eine grössere Zielgruppe angezogen wird oder die Produkte teurer sind. 
 
             </p>
             <br />
