@@ -32,15 +32,15 @@ function Gesundheitsexpansion() {
             </p>
             <br />
             <p>
-            Wenn McDonald’s also diesem Trend nachgehen will, so müssen sie von günstigerem Fast-Food auf teilweise gesünderes, aber auch teureres Slow Food wechseln. Ein vollständiger Wechsel wäre undenkbar. Es ist aber trotzdem plausibel, dass sich McDonalds versucht zu im gesünderen Segment zu etablieren. Noch mehr Salate, Burger mit weniger Kalorien, gesunde Burger, welche schwieriger zuzubereiten sind, aber eben für solche Leute eine Möglichkeit dar-stellen, nicht auf McDonald’s zu verzichten, weil es zu ungesund ist. 
+            Wenn McDonald’s also diesem Trend nachgehen will, so müssen sie von günstigerem Fast Food auf teilweise gesünderes, aber auch teureres Slow Food wechseln. Ein vollständiger Wechsel wäre undenkbar. Es ist aber trotzdem plausibel, dass sich McDonald's versucht im gesünderen Segment zu etablieren. Noch mehr Salate, Burger mit weniger Kalorien, gesunde Burger, welche schwieriger zuzubereiten sind, aber eben für solche Leute eine Möglichkeit darstellen, nicht auf McDonald’s zu verzichten, weil es zu ungesund ist. 
             </p>
             <br />
             <p>
-            Es wäre auch denkbar, dass McDonalds eine Art einzelnes Menü aufbringt, vielleicht auch einzelne Restaurants, welche immer noch das Erlebnis von McDonald’s versuchen zu erhalten, aber mehr in die Richtung eines traditionellen Restaurants gehen, um gesundes Fast-Food zu fördern.
+            Es wäre auch denkbar, dass McDonald's eine Art einzelnes Menü aufbringt, vielleicht auch einzelne Restaurants, welche immer noch das Erlebnis von McDonald’s versuchen zu erhalten, aber mehr in die Richtung eines traditionellen Restaurants gehen, um gesundes Fast Food zu fördern.
             </p>
             <br />
             <p>
-            Inwiefern wirkt sich das nun speziell auf die Werbung aus. Es wären Kampagnen denkbar, welche ganz spezifisch zeigen wie gesund Teile des «neuen» Menüs wären, ein McHealthy (Burger) oder Personen zeigen, welche zusammen mit McDonald’s Essen einen gesunden Lebensstil fördern. Sie könnten auch ihre Menügrössen anpassen und kleinere, somit günstigere und ge-sündere Angebote für Konsument:innen haben
+            Inwiefern wirkt sich das nun speziell auf die Werbung aus? Es wären Kampagnen denkbar, welche ganz spezifisch zeigen, wie gesund Teile des «neuen» Menüs wären, ein McHealthy (Burger) oder Personen zeigen, welche zusammen mit McDonald’s Essen einen gesunden Lebensstil fördern. Sie könnten auch ihre Menügrössen anpassen und kleinere, somit günstigere und gesündere Angebote für Konsument:innen haben.
             </p>
             <br />
             <br />
@@ -50,18 +50,16 @@ function Gesundheitsexpansion() {
             </p>
             <br />
             <p>
-            Wenn McDonald’s nicht beginnt gesündere Produkte anzubieten, oder einfach bei dem gleichen Sortiment an gesunden Produkten bleibt, dann könnte sich jedoch die Art der Vermarktung ändern. Dies geschah bereits in der Vergangenheit, als mit Transparenz in Hinsicht auf Kalorien, Fettanteil etc. gearbeitet wurde. Es muss also nicht bedeuten das McDonalds nur noch gesunde Produkte vermarktet, aber ganz bewusst damit umgeht, dass sie ungesund sind. 
+            Wenn McDonald’s nicht beginnt gesündere Produkte anzubieten, dann könnte sich jedoch die Art der Vermarktung ändern. Dies geschah bereits in der Vergangenheit, als mit Transparenz in Hinsicht auf Kalorien, Fettanteil etc. gearbeitet wurde. Es muss also nicht bedeuten, dass McDonald's nur noch gesunde Produkte vermarktet, aber ganz bewusst damit umgeht, dass sie ungesund sind. 
             </p>
             <br />
             <p>
-            Auf eine gewisse Weise, nach dem Prinzip, das Personen das Essen weiterhin konsumieren, dabei aber ein anderes Bewusstsein mit sich bringen. Ein Bewusstsein, welches durchaus erlaubt, sich zwischendurch ungesund zu ernähren, wenn man ansonsten einen gesunden Lebens-stil hat. Sie vermarkten also den gesunden Lebensstil, nehmen sich selbst aber als Ausnahme, ohne dabei vollständig so zu wirken, als würden sie Übergewicht in der Gesellschaft fördern.   
+            Auf eine gewisse Weise, nach dem Prinzip, dass Personen das Essen weiterhin konsumieren, dabei aber ein anderes Bewusstsein mit sich bringen. Ein Bewusstsein, welches durchaus erlaubt, sich zwischendurch ungesund zu ernähren, wenn man ansonsten einen gesunden Lebensstil hat. Sie vermarkten also den gesunden Lebensstil, nehmen sich selbst aber als Ausnahme, ohne dabei vollständig so zu wirken, als würden sie Übergewicht in der Gesellschaft fördern.   
             </p>
             <br />
-            <p>Ein ungewollter oder besser gesagt eine Konsequenz, welche die digitalisierende Werbung birgt, ist die grössere Umweltfreundlichkeit gegenüber Printmedien. McDonald’s müsste keine Printwerbung mehr durchführen, welchen den dafür notwendigen Rohstoffverbrauch reduzieren würde.
-            </p>
             <br />
             <p>
-            Die Werbung wäre also mit einem Fokus auf Gesundheit, sie zeigt sportliche Menschen, welche sich ganz Bewusst als Ausnahme im McDonald’s ernähren, weil es eben «gutes» Essen ist. Es könnte Kampagnen geben, in welcher McDonald’s sportliche Aktivitäten fördert, um zu zeigen, dass sie sich durchaus im Klaren sind, was ihre Produkte sind. Es wird transparent damit umgegangen. Kalorien, Fettanteil etc. sind immer angegeben. Zusätzlich liesse sich noch dazuschreiben, was für eine Aktivität man wie lange tun muss, um aufgenommenen Kalorien wieder abzubauen.
+            Die Werbung wäre also mit einem Fokus auf Gesundheit, sie zeigt sportliche Menschen, welche sich ganz bewusst als Ausnahme im McDonald’s ernähren, weil es eben «gutes» Essen ist. Es könnte Kampagnen geben, in welchen r McDonald’s sportliche Aktivitäten fördert, um zu zeigen, dass sie sich durchaus im Klaren sind, was ihre Produkte auslösen. Es wird transparent damit umgegangen. Kalorien, Fettanteil etc. sind immer angegeben. Zusätzlich liesse sich noch dazuschreiben, was für eine Aktivität man wie lange tun muss, um aufgenommenen Kalorien wieder abzubauen.
             </p>
             <br /><br />
         </article>

@@ -38,7 +38,7 @@ function McAktuell() {
             <div className="articleBoxMa">
                 <div className="leftMa">
                     <h1>
-                    Was macht McDonalds für die, die kein Fleisch wollen?
+                    was macht McDonald's für die, die kein Fleisch wollen?
                     </h1>
                     <p className="boxTextMa">
                     Was gibt’s überhaupt ausser Pommes?

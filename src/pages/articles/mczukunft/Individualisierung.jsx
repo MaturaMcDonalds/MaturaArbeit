@@ -7,7 +7,7 @@ function Individualisierung() {
             <h1 className="title">Individualisierung</h1>
             <p className="subtitle">
 
-            Nun auch weiss, dass diese Personsich die Individualisierung auf McDonald’s auswirken könnte
+            Wie McDonald's auf die Individualisierung reagieren könnte
             </p>
             <br />
             <img src={pic1} alt="" className="hero"/>

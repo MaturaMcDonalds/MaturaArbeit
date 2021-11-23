@@ -20,7 +20,7 @@ export default function MaturaArbeit() {
                     Abstract
                     </h1>
                     <p className="boxtext">
-                    Ein kurze Erklärung, was das Ganze überhaupt soll
+                    Eine kurze Erklärung, was das Ganze überhaupt soll
                     </p>
                     <button onClick={()=>{history.push("/MaturaArbeit/Matura/Abstract")}}><p>Nachlesen</p></button>
                 </div>
@@ -45,7 +45,7 @@ export default function MaturaArbeit() {
                     Abschliessende Worte
                     </h1>
                     <p className="boxtext">
-                    Fazit und Ausblick 
+                    Fazit, Reflexion und Ausblick 
                     </p>
                     <button onClick={()=>{history.push("/MaturaArbeit/Matura/Abschliessend")}}><p>Nachlesen</p></button>
                 </div>

@@ -7,7 +7,7 @@ export default function HeuteLos() {
         <article className="article">
             <h1 className="title">Wie ist den Heute los?</h1>
             <p className="subtitle">
-            Eine kleine Auswahl an den Marketingrinzipien von heute          
+            Eine kleine Auswahl an den Marketingprinzipien von heute          
             </p>
             <br />
             <img src={pic1} alt="" className="hero"/>

@@ -7,7 +7,7 @@ export default function UnsereAbreit() {
             <h1 className="title">Was passierte während unserer Arbeit</h1>
             <p className="subtitle">
 
-            Zwei interessante Extras die in der letzten Zeit passiert sind
+            Zwei interessante Extras, die in der letzten Zeit passiert sind
             </p>
             <br />
             <img src={pic1} alt="" className="hero"/>
