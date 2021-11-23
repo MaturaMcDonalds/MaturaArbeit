@@ -45,6 +45,10 @@ function Werbevideo() {
     }
     return (
         <article className="article">
+            <h1 className="title">Einsicht in unser McWerbevideo der Zukunft</h1>
+            <p className="subtitle">Wie McDonald’s uns möglicherweise im nächsten Jahrzehnt bewirbt </p>
+            <br />
+            <br />
             {allowed == false?<div id="video">
                 <h1>Bitte geben Sie das Passwort ein, um das Video anzuschauen</h1>
                 <input type="text" value={input} onChange={changeInput} />
@@ -52,6 +56,7 @@ function Werbevideo() {
                 </div>:
                 <iframe id="video" src={"https://www.youtube.com/embed/MX-KPMjX4U4?start="+second} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
            }
+           <br />
              <p>
             Einsicht in unser McWerbevideo der Zukunft
             Wie McDonald’s uns möglicherweise im nächsten Jahrzehnt bewirbt 
