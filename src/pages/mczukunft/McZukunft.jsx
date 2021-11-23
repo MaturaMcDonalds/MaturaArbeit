@@ -55,13 +55,13 @@ export default function McZunkuft() {
                     <div className="boxMcz box3">
                         <p className="smallboxtitle">Individualisierung</p>
                         <img src={box3} alt="" id="pic2"></img>
-                        <p className="smallboxtext">Zwei Szenarien, wie McDonald’s auf den Trend der Individualiserung reagieren könnte</p>
+                        <p className="smallboxtext">Zwei Szenarien, wie McDonald’s auf den Trend der Individualisierung reagieren könnte</p>
                         <button onClick={()=>{history.push("/MaturaArbeit/McZukunft/Individualisierung")}}><p>Nachlesen</p></button>
                     </div>
                     <div className="boxMcz box4">
                         <p className="smallboxtitle">Gesundheitsexpansion</p>
                         <img src={box4} alt="" id="pic2"></img>
-                        <p className="smallboxtext">Zwei Szenarien, wie McDonalds mit der ständigen Gesundheitsexpansion umgehen könnte</p>
+                        <p className="smallboxtext">Zwei Szenarien, wie McDonald's mit der ständigen Gesundheitsexpansion umgehen könnte</p>
                         <button onClick={()=>{history.push("/MaturaArbeit/McZukunft/Gesundheitsexpansion")}}><p>Nachlesen</p></button>
                     </div>
                 </div>
