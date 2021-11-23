@@ -10,7 +10,7 @@ const Footer = () => {
                 <span className="grey">Alle Angaben der Website sind ohne Gewähr</span>
             </div>
             <div onClick={()=>{history.push("/MaturaArbeit/Kommentare")}}>
-                <p>Wissenschaflticher Kommentar.</p>
+                <p>Wissenschaflticher Kommentar</p>
             </div>
             <div onClick={()=>{history.push("/MaturaArbeit/Kontakt")}}>
                 <p>Kontakt</p>
