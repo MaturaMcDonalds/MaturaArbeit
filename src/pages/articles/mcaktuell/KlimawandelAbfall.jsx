@@ -18,14 +18,14 @@ const Klimawandelabfall = () => {
             Eine der immer grösser werdenden Thematiken ist der Klimaschutz. Hinzu kommt, dass die Kritik der Verletzung des Umweltschutzes immer lauter wird. McDonald’s erfährt dies aufgrund zweierlei Faktoren: Erstens durch ihre fleischlastigen Menüoptionen und zweitens durch die Anhäufung von Abfall, der durch ihre Verpackungen produziert wird. 
             </p>
             <br />
-            <p>In diesem Artikel wollen wir die Beschaffenheit dieser beidem Faktoren in Hinsicht auf McDonald’s analysieren. Beginnen wir zuerst mit dem Fleischkonsum, welcher in McDonald’s bei fast allen Menüs gegeben ist. Die Fleischindustrie steht schon lange in der Kritik. Nicht nur das Wohl der Tiere, sondern auch die Auswirkungen auf die Umwelt sind Aspekte, welche immer wieder für Furore sorgen. Die Fleischproduktion ist für den grössten, menschengemachten CO2 Ausstoss verantwortlich (Zee, 2020). Somit ist auch der Hauptmenüpunkt von McDonald’s definitiv nicht umweltfreundlich.
+            <p>In diesem Artikel wollen wir die Beschaffenheit dieser beidem Faktoren in Hinsicht auf McDonald’s analysieren. Beginnen wir zuerst mit dem Fleischkonsum, welcher in McDonald’s bei fast allen Menüs gegeben ist. Die Fleischindustrie steht schon lange in der Kritik. Nicht nur das Wohl der Tiere, sondern auch die Auswirkungen auf die Umwelt sind Aspekte, welche immer wieder für Furore sorgen. Die Fleischproduktion ist für den grössten, menschengemachten CO2-Ausstoss verantwortlich (Zee, 2020). Somit ist auch der Hauptmenüpunkt von McDonald’s definitiv nicht umweltfreundlich.
             </p>
 
             <br />
             <br />
 
             <p>
-            Das Rindfleisch der schweizerischen McDonald’s kommt meist auch von hier und wenn dem nicht so ist, so wird es durch Medienmitteilungen in jeder Filiale gekennzeichnet (Für beschränkte Zeit teilweise Rindfleisch aus Österreich, 2019). Die Standards der Fleischindustrie sind in der Schweiz hoch, nicht nur in Bezug auf das Tierwohl, sondern eben auch auf die Umwelt. Der CO2 Ausstoss ist niedriger, es wird auf die Gesundheit des Bodens geachtet und auf den Gebrauch von Antibiotika usw. Die Auswirkungen auf das Klima sind hierzulande generell niedriger als in anderen Ländern. 
+            Das Rindfleisch der schweizerischen McDonald’s kommt meist auch von hier und wenn dem nicht so ist, so wird es durch Medienmitteilungen in jeder Filiale gekennzeichnet (Für beschränkte Zeit teilweise Rindfleisch aus Österreich, 2019). Die Standards der Fleischindustrie sind in der Schweiz hoch, nicht nur in Bezug auf das Tierwohl, sondern eben auch auf die Umwelt. Der CO2-Ausstoss ist niedriger, es wird auf die Gesundheit des Bodens geachtet und auf den Gebrauch von Antibiotika usw. Die Auswirkungen auf das Klima sind hierzulande generell niedriger als in anderen Ländern. 
             </p>
             <br />
             <p>Anders ist es jedoch bei Hühnchen, wo es transparent scheint. Dies wird aber geschickt so vermarktet,  es scheint als ob es aus der Schweiz komme, jedoch irgendwie doch nicht. McDonald’s unterscheidet klar zwischen Produktion des Hühnchens und dem «Rohstoff» an sich. Dieser kommt nämlich aus Ungarn, weshalb nicht nur schlechtere Tierhaltungsstandards gelten, sondern auch höhere Auswirkungen auf die Umwelt mit sich bringt.

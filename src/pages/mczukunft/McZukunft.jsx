@@ -23,7 +23,7 @@ export default function McZunkuft() {
                 <img src={pic1} alt="" ></img>
                 <div className="textOverImgMcz">
                     <p className="heroTextTitleMcZ">Einsicht in unser Werbevideo der Zukunft</p>
-                    <p className="heroTextMcZ">Ein Artikel zu unserem Werbevideo, was wir im Sinne von McDonald’s in 10 Jahren beschreiben</p>
+                    <p className="heroTextMcZ">Ein Artikel zu unserem Werbevideo, welches wir im Sinne von McDonald's in 10 Jahren gedreht haben</p>
                     <button onClick={()=>{history.push("/MaturaArbeit/McZukunft/Werbevideo")}}><p>Nachlesen</p></button>
                 </div>
             </div>
@@ -47,7 +47,7 @@ export default function McZunkuft() {
                     <div className="boxMcz box2">
                         <p className="smallboxtitle">Digitalisierung</p>
                         <img src={box2} alt="" id="pic2"></img>
-                        <p className="smallboxtext">Zwei Szenarien, wie sich die immer mehr digitaliserende Welt auf McDonald’s auswirken könnte</p>
+                        <p className="smallboxtext">Zwei Szenarien, wie sich die immer mehr digitalisierende Welt auf McDonald’s auswirken könnte</p>
                         <button onClick={()=>{history.push("/MaturaArbeit/McZukunft/Digitalisierung")}}><p>Nachlesen</p></button>
                     </div>
                 </div>
